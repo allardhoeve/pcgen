@@ -1,0 +1,8 @@
+*.ini
+*.log
+*.log.1
+*.log.lck
+data/pcgen-nfd
+data/pcgen-houserules
+.DS_Store
+*.bak

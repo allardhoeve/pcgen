@@ -1,0 +1,751 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Fire Mountain - Way of the Wicked, Book 1: Knot of Thorns|CAMPAIGN:Houserules
+VERSION:6.03.03-dev
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Saenvan
+TABNAME:
+PLAYERNAME:Allard
+HEIGHT:69
+WEIGHT:175
+AGE:19
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:12
+STAT:INT|SCORE:14
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:10
+ALIGN:LE
+RACE:Human
+
+# Character Class(es)
+CLASS:Cleric|LEVEL:10|SKILLPOOL:0
+CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=3|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=4|HITPOINTS:6|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=5|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=6|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=7|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=8|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=9|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=10|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:105000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:Human]
+TEMPLATESAPPLIED:[NAME:Way of the Wicked Villain]
+TEMPLATESAPPLIED:[NAME:Nessian Knot Training]
+TEMPLATESAPPLIED:[NAME:Wisdom of Abbadon]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Knowledge (Religion)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Escape Artist|OUTPUTORDER:18|
+SKILL:Sense Motive (Perform (Keyboard Instruments))|OUTPUTORDER:39|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:17|
+SKILL:Linguistics (Forgery)|OUTPUTORDER:31|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Cleric|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:40|
+SKILL:Intimidate|OUTPUTORDER:24|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Perform (Untrained)|OUTPUTORDER:34|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Survival|OUTPUTORDER:44|
+SKILL:Knowledge (Nobility)|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|
+SKILL:Fly|OUTPUTORDER:19|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:21|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Cleric|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Oratory)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Knowledge (Planes)|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Cleric|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:37|
+SKILL:Stealth|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Barrister)|OUTPUTORDER:35|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:41|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Disguise|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Cleric|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:22|
+SKILL:Perception|OUTPUTORDER:32|
+SKILL:Ride|OUTPUTORDER:36|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:20|
+SKILL:Sense Motive|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Cleric|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Cleric|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:23|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:25|
+SKILL:Swim|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Infernal
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Infernal,Celestial|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Infernal,Celestial|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+USERPOOL:0-Level Bard Word|POOLPOINTS:0.0
+USERPOOL:0-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:0-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:0-Level Inquisitor Word|POOLPOINTS:0.0
+USERPOOL:0-Level Magus Word|POOLPOINTS:0.0
+USERPOOL:0-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:0-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:0-Level Summoner Word|POOLPOINTS:0.0
+USERPOOL:0-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:0-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Alchemist Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Bard Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Inquisitor Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Magus Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Paladin Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Ranger Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Summoner Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:1st-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Alchemist Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Bard Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Inquisitor Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Magus Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Paladin Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Ranger Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Summoner Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:2nd-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Alchemist Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Bard Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Inquisitor Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Magus Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Paladin Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Ranger Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Summoner Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:3rd-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Alchemist Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Bard Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Inquisitor Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Magus Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Paladin Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Ranger Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Summoner Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:4th-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Alchemist Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Bard Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Inquisitor Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Magus Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Summoner Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:5th-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Alchemist Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Bard Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Inquisitor Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Magus Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Summoner Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:6th-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:7th-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:7th-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:7th-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:7th-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:7th-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:7th-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:8th-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:8th-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:8th-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:8th-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:8th-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:8th-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:9th-Level Cleric Word|POOLPOINTS:0.0
+USERPOOL:9th-Level Druid Word|POOLPOINTS:0.0
+USERPOOL:9th-Level Oracle Word|POOLPOINTS:0.0
+USERPOOL:9th-Level Sorcerer Word|POOLPOINTS:0.0
+USERPOOL:9th-Level Witch Word|POOLPOINTS:0.0
+USERPOOL:9th-Level Wizard Word|POOLPOINTS:0.0
+USERPOOL:ACF|POOLPOINTS:0.0
+USERPOOL:Aberrant Bloodline Feat|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Wisdom|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+USERPOOL:Ability Focus|POOLPOINTS:0.0
+USERPOOL:Abyssal Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Accursed Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Adaptability Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Adaptation Ability Selection|POOLPOINTS:0.0
+USERPOOL:Adaptation Creature Selection|POOLPOINTS:0.0
+USERPOOL:Add Spoken Language|POOLPOINTS:0.0
+USERPOOL:Additional Language|POOLPOINTS:0.0
+USERPOOL:Adoptive Race|POOLPOINTS:0.0
+USERPOOL:Afflictions|POOLPOINTS:0.0
+USERPOOL:Air Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Alchemist Archetype|POOLPOINTS:0.0
+USERPOOL:Alchemist Class Feature|POOLPOINTS:0.0
+USERPOOL:Alchemist Discovery|POOLPOINTS:0.0
+USERPOOL:Alchemist Grand Discovery|POOLPOINTS:0.0
+USERPOOL:Alignment Selection|POOLPOINTS:0.0
+USERPOOL:Amateur Gunslinger|POOLPOINTS:0.0
+USERPOOL:Ancestor Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Animal Companion Feat|POOLPOINTS:0.0
+USERPOOL:Animal Friend Choice|POOLPOINTS:0.0
+USERPOOL:Animal Trick|POOLPOINTS:0.0
+USERPOOL:Antihero Feat|POOLPOINTS:0.0
+USERPOOL:Antipaladin Archetype|POOLPOINTS:0.0
+USERPOOL:Antipaladin Class Feature|POOLPOINTS:0.0
+USERPOOL:Ape Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Aquatic Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Arcane Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Arcane Bloodline School Power|POOLPOINTS:0.0
+USERPOOL:Arcane Bomber Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Arcane Bond|POOLPOINTS:0.0
+USERPOOL:Arcane Opposition School|POOLPOINTS:0.0
+USERPOOL:Archer Trick Shot Selection|POOLPOINTS:0.0
+USERPOOL:Archetype|POOLPOINTS:0.0
+USERPOOL:Aspect Master Selection|POOLPOINTS:0.0
+USERPOOL:Aspect of the Beast Selection|POOLPOINTS:0.0
+USERPOOL:Assassin Class Feature|POOLPOINTS:0.0
+USERPOOL:Background|POOLPOINTS:0.0
+USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
+USERPOOL:Barbarian Class Ability|POOLPOINTS:0.0
+USERPOOL:Barbarian Class Feature|POOLPOINTS:0.0
+USERPOOL:Bard Archetype|POOLPOINTS:0.0
+USERPOOL:Bard Class Ability|POOLPOINTS:0.0
+USERPOOL:Bard Class Feature|POOLPOINTS:0.0
+USERPOOL:Bard Favored Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Bat Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Battle Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Beastmaster Companion Choice|POOLPOINTS:0.0
+USERPOOL:Black Blade Selection|POOLPOINTS:0.0
+USERPOOL:Boar Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Bone Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Bonus CMD Choice|POOLPOINTS:0.0
+USERPOOL:Boreal Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Campaign Trait Choice|POOLPOINTS:0.0
+USERPOOL:Cavalier Archetype|POOLPOINTS:0.0
+USERPOOL:Cavalier Class Feature|POOLPOINTS:0.0
+USERPOOL:Cavalier Feat|POOLPOINTS:0.0
+USERPOOL:Cavalier Mount Choice|POOLPOINTS:0.0
+USERPOOL:Cavalier Order|POOLPOINTS:0.0
+USERPOOL:Celestial Bloodline Feat|POOLPOINTS:0.0
+ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Negative Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergy.Channel Energy.Channel Energy Negative|DESC:You can unleash a wave of negative energy dealing %1d%2 (DC %3 for half) %4/day.&pipe;ClericChannelNegativeEnergyDice&pipe;ClericChannelNegativeEnergyDieSize&pipe;ClericChannelNegativeEnergyDC&pipe;ClericChannelEnergyTimes
+USERPOOL:Channel Energy|POOLPOINTS:0.0
+USERPOOL:Choose Attack Rolls Stat|POOLPOINTS:0.0
+USERPOOL:Class Ability|POOLPOINTS:0.0
+USERPOOL:Class Feature|POOLPOINTS:0.0
+USERPOOL:Class Level +2 Ability Adjustment|POOLPOINTS:0.0
+USERPOOL:Class Level +4 Ability Adjustment|POOLPOINTS:0.0
+USERPOOL:Class Level -2 Ability Adjustment|POOLPOINTS:0.0
+ABILITY:Cleric Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Cleric Archetype ~ Missionary|TYPE:Archetype.ClericArchetype.ClericSpontaneousCasting.ClericChannelEnergy|DESC:The missionary is the voice of her religion in the world. Where others nurture the faith among believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call to all around to heed the truth, or obey the call to war and crusade against the enemies of the church.
+USERPOOL:Cleric Archetype|POOLPOINTS:0.0
+USERPOOL:Cleric Class Ability|POOLPOINTS:0.0
+USERPOOL:Cleric Class Feature|POOLPOINTS:0.0
+USERPOOL:Combat Style|POOLPOINTS:0.0
+USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
+USERPOOL:Companion Bonus Skill|POOLPOINTS:0.0
+USERPOOL:Companion Level Increase Choice|POOLPOINTS:0.0
+USERPOOL:Companion Stat Increase|POOLPOINTS:0.0
+USERPOOL:Crossblooded Bloodline|POOLPOINTS:0.0
+USERPOOL:Crossblooded Bloodline Power|POOLPOINTS:0.0
+USERPOOL:Crossblooded Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Crossblooded Feat|POOLPOINTS:0.0
+USERPOOL:Crossblooded Sorcerer|POOLPOINTS:0.0
+USERPOOL:Cruelty|POOLPOINTS:0.0
+USERPOOL:Crusader Feat|POOLPOINTS:0.0
+USERPOOL:Dark Tapestry Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Deepearth Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Defensive Stance Power|POOLPOINTS:0.0
+USERPOOL:Destined Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Determination Choice|POOLPOINTS:0.0
+USERPOOL:Disable First Level Domain Power|POOLPOINTS:0.0
+USERPOOL:Divine Bond|POOLPOINTS:0.0
+USERPOOL:Djinni Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Domain Secret|POOLPOINTS:0.0
+USERPOOL:Draconic Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Dragon Disciple Class Feature|POOLPOINTS:0.0
+USERPOOL:Dragon Shaman Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Dreamspun Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Druid Archetype|POOLPOINTS:0.0
+USERPOOL:Druid Bear Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Druid Class Ability|POOLPOINTS:0.0
+USERPOOL:Druid Class Feature|POOLPOINTS:0.0
+USERPOOL:Druid Domain|POOLPOINTS:0.0
+USERPOOL:Druid Eagle Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Druid Lion Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Druid Serpent Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Druid Wolf Shaman Feat|POOLPOINTS:0.0
+USERPOOL:Duelist Class Feature|POOLPOINTS:0.0
+USERPOOL:Dwarf Race Trait|POOLPOINTS:0.0
+USERPOOL:Dwarf Racial Trait|POOLPOINTS:0.0
+USERPOOL:Earth Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Efreeti Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Eidolon Aquatic Evolution|POOLPOINTS:0.0
+USERPOOL:Eidolon Basic Magic Choice|POOLPOINTS:0.0
+USERPOOL:Eidolon Biped Evolution|POOLPOINTS:0.0
+USERPOOL:Eidolon Bonus Skill|POOLPOINTS:0.0
+USERPOOL:Eidolon Evolution|POOLPOINTS:0.0
+USERPOOL:Eidolon Magic Upgrade|POOLPOINTS:0.0
+USERPOOL:Eidolon Major Magic Choice|POOLPOINTS:0.0
+USERPOOL:Eidolon Minor Magic Choice|POOLPOINTS:0.0
+USERPOOL:Eidolon Quadruped Evolution|POOLPOINTS:0.0
+USERPOOL:Eidolon Serpentine Evolution|POOLPOINTS:0.0
+USERPOOL:Eidolon Skill|POOLPOINTS:0.0
+USERPOOL:Eidolon Type Selection|POOLPOINTS:0.0
+USERPOOL:Eidolon Ultimate Magic Choice|POOLPOINTS:0.0
+USERPOOL:Eldritch Heritage Bloodline Choice|POOLPOINTS:0.0
+USERPOOL:Eldritch Knight Class Feature|POOLPOINTS:0.0
+USERPOOL:Elemental Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Elemental Fist Choice|POOLPOINTS:0.0
+USERPOOL:Elf Race Trait|POOLPOINTS:0.0
+USERPOOL:Elf Racial Trait|POOLPOINTS:0.0
+USERPOOL:Emissary Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Emotive Duality|POOLPOINTS:0.0
+USERPOOL:Exotic Weapon Proficiency|POOLPOINTS:0.0
+USERPOOL:Expanded Arcana Selection|POOLPOINTS:0.0
+USERPOOL:Expanded Repertoire Selection|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:Extra Channel|POOLPOINTS:0.0
+USERPOOL:Extra Word|POOLPOINTS:0.0
+USERPOOL:Extreme Endurance Selection|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Wondrous Item|TYPE:ItemCreation|DESC:You can create wondrous items, a type of magic item.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Leadership|TYPE:Leadership|DESC:You attract followers to your cause and a companion to join you on your adventure.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Scribe Scroll|TYPE:ItemCreation.ArcaneBloodline|DESC:You can create magic scrolls.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Enchantment|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Penetration|TYPE:General.InfernalBloodline.DragonShamanBonus|DESC:Your spells break through spell resistance more easily than most.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perform (Oratory),Perform (Oratory),Perform (Oratory),Knowledge (Planes),Perform (Oratory),Profession (Barrister),Perform (Oratory)|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Spell Penetration Outsiders|APPLIEDTO:,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassCleric|DESC:Add +1 on caster level checks made to overcome the spell resistance of outsiders.
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+USERPOOL:Favored Community|POOLPOINTS:0.0
+USERPOOL:Favored Community Bonus|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Favored Terrain|POOLPOINTS:0.0
+USERPOOL:Favored Terrain Bonus|POOLPOINTS:0.0
+USERPOOL:Fey Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Fiendish Boon|POOLPOINTS:0.0
+USERPOOL:Fighter Archetype|POOLPOINTS:0.0
+USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Fighter Class Ability|POOLPOINTS:0.0
+USERPOOL:Fighter Class Feature|POOLPOINTS:0.0
+USERPOOL:Fire Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Flame Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Flexible Enhancement Bonus|POOLPOINTS:0.0
+USERPOOL:Flowing Monk Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Focused Arcane School|POOLPOINTS:0.0
+USERPOOL:Forbidden Rites Domain|POOLPOINTS:0.0
+USERPOOL:Geisha Knowledge Choice|POOLPOINTS:0.0
+USERPOOL:Geisha Weapon Proficiency Choice|POOLPOINTS:0.0
+USERPOOL:Gendarme Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Giant Creature Option|POOLPOINTS:0.0
+USERPOOL:Giant Spider Type|POOLPOINTS:0.0
+USERPOOL:Gladiator Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Gnome Race Trait|POOLPOINTS:0.0
+USERPOOL:Gnome Racial Knowledge|POOLPOINTS:0.0
+USERPOOL:Gnome Racial Trait|POOLPOINTS:0.0
+USERPOOL:Guided Hand Selection|POOLPOINTS:0.0
+USERPOOL:Guileful Polyglot Additional Language|POOLPOINTS:0.0
+USERPOOL:Gun Training Choice|POOLPOINTS:0.0
+USERPOOL:Gunslinger Archetype|POOLPOINTS:0.0
+USERPOOL:Gunslinger Class Feature|POOLPOINTS:0.0
+USERPOOL:Gunslinger Feat|POOLPOINTS:0.0
+USERPOOL:Half-Elf Bonus Weapon|POOLPOINTS:0.0
+USERPOOL:Half-Elf Race Trait|POOLPOINTS:0.0
+USERPOOL:Half-Elf Racial Trait|POOLPOINTS:0.0
+USERPOOL:Half-Orc Race Trait|POOLPOINTS:0.0
+USERPOOL:Half-Orc Racial Trait|POOLPOINTS:0.0
+USERPOOL:Halfling Race Trait|POOLPOINTS:0.0
+USERPOOL:Halfling Racial Trait|POOLPOINTS:0.0
+USERPOOL:Headband of Intellect Skill Choice|POOLPOINTS:0.0
+USERPOOL:Heavens Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Hex Arcana|POOLPOINTS:0.0
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+USERPOOL:Human Race Trait|POOLPOINTS:0.0
+USERPOOL:Human Racial Trait|POOLPOINTS:0.0
+USERPOOL:Hunter's Bond|POOLPOINTS:0.0
+USERPOOL:Hunter's Trick Selection|POOLPOINTS:0.0
+USERPOOL:Infernal Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Inquisitor Archetype|POOLPOINTS:0.0
+USERPOOL:Inquisitor Class Feature|POOLPOINTS:0.0
+USERPOOL:Inquisitor Domain Choice|POOLPOINTS:0.0
+USERPOOL:Inquisitor Favored Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Inquisitor Judgment Effect|POOLPOINTS:0.0
+USERPOOL:Inspiring Command Selection|POOLPOINTS:0.0
+USERPOOL:Intelligent Item|POOLPOINTS:0.0
+USERPOOL:Intelligent Item Alignment|POOLPOINTS:0.0
+USERPOOL:Intelligent Item Languages|POOLPOINTS:0.0
+USERPOOL:Intelligent Item Power|POOLPOINTS:0.0
+USERPOOL:Intelligent Item Purpose|POOLPOINTS:0.0
+USERPOOL:Intelligent Item Purpose Power|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Kensai Chosen Weapon|POOLPOINTS:0.0
+USERPOOL:Kensai Weapon Choice|POOLPOINTS:0.0
+USERPOOL:Kensai Weapon Focus|POOLPOINTS:0.0
+USERPOOL:Ki Pool Stat Choice|POOLPOINTS:0.0
+USERPOOL:Ki Power|POOLPOINTS:0.0
+USERPOOL:Knowledge Class Skill|POOLPOINTS:0.0
+USERPOOL:Life Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Lore Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Loremaster Class Feature|POOLPOINTS:0.0
+USERPOOL:Loremaster Secret|POOLPOINTS:0.0
+USERPOOL:Maestro Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Magus Arcana|POOLPOINTS:0.0
+USERPOOL:Magus Archetype|POOLPOINTS:0.0
+USERPOOL:Magus Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Magus Class Feature|POOLPOINTS:0.0
+USERPOOL:Maneuver Master Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Marid Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Martial Weapon Proficiency|POOLPOINTS:0.0
+USERPOOL:Master Of Many Styles Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Master Shifter Selection|POOLPOINTS:0.0
+USERPOOL:Mercy|POOLPOINTS:0.0
+USERPOOL:Metal Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Metal Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Monk Archetype|POOLPOINTS:0.0
+USERPOOL:Monk Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Monk Class Ability|POOLPOINTS:0.0
+USERPOOL:Monk Class Feature|POOLPOINTS:0.0
+USERPOOL:Mounted Mastery Selection|POOLPOINTS:0.0
+USERPOOL:Mystic Theurge Class Feature|POOLPOINTS:0.0
+USERPOOL:Natural Attack|POOLPOINTS:0.0
+USERPOOL:Nature Bond|POOLPOINTS:0.0
+USERPOOL:Nature Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Necromancer Channeling|POOLPOINTS:0.0
+USERPOOL:New Arcana|POOLPOINTS:0.0
+USERPOOL:Night Sight|POOLPOINTS:0.0
+USERPOOL:Ninja Archetype|POOLPOINTS:0.0
+USERPOOL:Ninja Class Feature|POOLPOINTS:0.0
+USERPOOL:Ninja Trick|POOLPOINTS:0.0
+USERPOOL:Obsessive Bonus|POOLPOINTS:0.0
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+USERPOOL:Oracle Archetype|POOLPOINTS:0.0
+USERPOOL:Oracle Class Feature|POOLPOINTS:0.0
+USERPOOL:Oracle Curse|POOLPOINTS:0.0
+USERPOOL:Oracle Favored Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Oracle Maneuver Mastery|POOLPOINTS:0.0
+USERPOOL:Oracle Mystery|POOLPOINTS:0.0
+USERPOOL:Oracle Second Curse|POOLPOINTS:0.0
+USERPOOL:Oracle Spell Choice|POOLPOINTS:0.0
+USERPOOL:Oracle Weapon Mastery|POOLPOINTS:0.0
+USERPOOL:Pack Member Level|POOLPOINTS:0.0
+USERPOOL:Paladin Archetype|POOLPOINTS:0.0
+USERPOOL:Paladin Class Ability|POOLPOINTS:0.0
+USERPOOL:Paladin Class Feature|POOLPOINTS:0.0
+USERPOOL:Pathfinder Chronicler Class Feature|POOLPOINTS:0.0
+USERPOOL:Permanency Applied Effects|POOLPOINTS:0.0
+USERPOOL:Planar Resistance Energy Type|POOLPOINTS:0.0
+USERPOOL:Protean Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Racial Heritage Choice|POOLPOINTS:0.0
+USERPOOL:Racial Trait|POOLPOINTS:0.0
+USERPOOL:Rage Power|POOLPOINTS:0.0
+USERPOOL:Rakshasa Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Ranger Archetype|POOLPOINTS:0.0
+USERPOOL:Ranger Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Ranger Class Ability|POOLPOINTS:0.0
+USERPOOL:Ranger Class Feature|POOLPOINTS:0.0
+USERPOOL:Ranger Trap|POOLPOINTS:0.0
+USERPOOL:Rapid Reload|POOLPOINTS:0.0
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+USERPOOL:Rogue Advanced Talent|POOLPOINTS:0.0
+USERPOOL:Rogue Archetype|POOLPOINTS:0.0
+USERPOOL:Rogue Class Ability|POOLPOINTS:0.0
+USERPOOL:Rogue Class Feature|POOLPOINTS:0.0
+USERPOOL:Rogue Talent|POOLPOINTS:0.0
+USERPOOL:Samurai Archetype|POOLPOINTS:0.0
+USERPOOL:Samurai Class Feature|POOLPOINTS:0.0
+USERPOOL:Samurai Expertise|POOLPOINTS:0.0
+USERPOOL:Samurai Feat|POOLPOINTS:0.0
+USERPOOL:Samurai Order|POOLPOINTS:0.0
+USERPOOL:Saurian Shaman Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Saving Throw Selection|POOLPOINTS:0.0
+USERPOOL:Secrets of the Grave Spell Choice|POOLPOINTS:0.0
+USERPOOL:Serpentine Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Setting Specific Language|POOLPOINTS:0.0
+USERPOOL:Shadow Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Shadowdancer Class Feature|POOLPOINTS:0.0
+USERPOOL:Shaitan Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Shark Shaman Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Shifter's Blessing Selection|POOLPOINTS:0.0
+USERPOOL:Siege Mage Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Simple Weapon Proficiency Choice|POOLPOINTS:0.0
+USERPOOL:Skill Focus|POOLPOINTS:0.0
+USERPOOL:Sohei Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Soothsayer Revelation|POOLPOINTS:0.0
+USERPOOL:Sorcerer Archetype|POOLPOINTS:0.0
+USERPOOL:Sorcerer Bloodline|POOLPOINTS:0.0
+USERPOOL:Sorcerer Class Ability|POOLPOINTS:0.0
+USERPOOL:Sorcerer Class Feature|POOLPOINTS:0.0
+USERPOOL:Sorcerer Favored Bonus Spell|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+USERPOOL:Special Mount Choice|POOLPOINTS:0.0
+USERPOOL:Spell Focus|POOLPOINTS:0.0
+USERPOOL:Spell-Like Ability|POOLPOINTS:0.0
+USERPOOL:Spellbreaker Arcane Defense|POOLPOINTS:0.0
+USERPOOL:Spellbreaker Impervious Choice|POOLPOINTS:0.0
+USERPOOL:Spellslinger Gun Choice|POOLPOINTS:0.0
+USERPOOL:Spellslinger Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Spindle of Perfect Knowledge|POOLPOINTS:0.0
+USERPOOL:Split Slot|POOLPOINTS:0.0
+USERPOOL:Starsoul Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Stone Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Stormborn Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Summoner Archetype|POOLPOINTS:0.0
+USERPOOL:Summoner Aspect|POOLPOINTS:0.0
+USERPOOL:Summoner Class Feature|POOLPOINTS:0.0
+USERPOOL:Summoner Greater Aspect|POOLPOINTS:0.0
+USERPOOL:Swashbuckler Weapon Proficiency|POOLPOINTS:0.0
+USERPOOL:Swift Powder Choice|POOLPOINTS:0.0
+USERPOOL:Tactician Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Tactician Feat|POOLPOINTS:0.0
+USERPOOL:Teamwork Feat|POOLPOINTS:0.0
+USERPOOL:Teamwork Feat Selection|POOLPOINTS:0.0
+USERPOOL:Terrain Dominance Selection|POOLPOINTS:0.0
+USERPOOL:Terrain Mastery Selection|POOLPOINTS:0.0
+USERPOOL:Tetori Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Tiefling Language|POOLPOINTS:0.0
+USERPOOL:Time Mystery Revelation|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Blasphemy|TYPE:Trait.CampaignTrait|DESC:Either you have defamed the great god Mitra or you have been found guilty of worshipping one of the forbidden deities (who preeminent among them is Asmodeus). Punishment&colon; Death by burning. Benefit&colon; +2 trait bonus to Knowledge (Religion) and Knowledge (Religion) becomes a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Natural-Born Leader|TYPE:Trait.BasicTrait.SocialTrait|DESC:You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not.
+USERPOOL:Traits|POOLPOINTS:0.0
+USERPOOL:Two-Handed Fighter Weapon Training I|POOLPOINTS:0.0
+USERPOOL:Two-Handed Fighter Weapon Training II|POOLPOINTS:0.0
+USERPOOL:Two-Handed Fighter Weapon Training III|POOLPOINTS:0.0
+USERPOOL:Two-Handed Fighter Weapon Training IV|POOLPOINTS:0.0
+USERPOOL:Unarmed Fighter Bonus Style Feat|POOLPOINTS:0.0
+USERPOOL:Undead Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Undead Lord Bonus Feat|POOLPOINTS:0.0
+ABILITY:Variant Channeling|TYPE:NORMAL|CATEGORY:Special Ability|KEY:1. Standard Channeling|TYPE:VariantChanneling
+USERPOOL:Variant Channeling|POOLPOINTS:0.0
+USERPOOL:Verdant Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Versatile Channeler|POOLPOINTS:0.0
+USERPOOL:Versatile Performance|POOLPOINTS:0.0
+USERPOOL:Vow|POOLPOINTS:0.0
+USERPOOL:Water Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Waves Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Weapon Adept Monk Weapon Focus Choice|POOLPOINTS:0.0
+USERPOOL:Weapon Adept Monk Weapon Specialization Choice|POOLPOINTS:0.0
+USERPOOL:Weapon Focus|POOLPOINTS:0.0
+USERPOOL:Weapon Master Chosen Weapon|POOLPOINTS:0.0
+USERPOOL:Weapon Mastery|POOLPOINTS:0.0
+USERPOOL:Weapon Training|POOLPOINTS:0.0
+USERPOOL:Weapon Training I|POOLPOINTS:0.0
+USERPOOL:Weapon Training II|POOLPOINTS:0.0
+USERPOOL:Weapon Training III|POOLPOINTS:0.0
+USERPOOL:Weapon Training IV|POOLPOINTS:0.0
+USERPOOL:Wild Stalker Wild Talent|POOLPOINTS:0.0
+USERPOOL:Wind Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Witch Archetype|POOLPOINTS:0.0
+USERPOOL:Witch Class Feature|POOLPOINTS:0.0
+USERPOOL:Witch Hex|POOLPOINTS:0.0
+USERPOOL:Witch Patron|POOLPOINTS:0.0
+USERPOOL:Wizard Archetype|POOLPOINTS:0.0
+USERPOOL:Wizard Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Class Ability|POOLPOINTS:0.0
+USERPOOL:Wizard Class Feature|POOLPOINTS:0.0
+USERPOOL:Wood Mystery Revelation|POOLPOINTS:0.0
+USERPOOL:Wood Opposition School Choice|POOLPOINTS:0.0
+USERPOOL:Words of Power|POOLPOINTS:0.0
+USERPOOL:Zen Archer Feat|POOLPOINTS:0.0
+USERPOOL:Zen Archer Weapon Focus Choice|POOLPOINTS:0.0
+USERPOOL:Zen Archer Weapon Specialization Choice|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:375.00
+EQUIPNAME:Angelskin Shirt|OUTPUTORDER:6|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bolts (Crossbow/10)|OUTPUTORDER:33|COST:1.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts (Crossbow/10)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Circlet of Disguise (Wis)|OUTPUTORDER:1|COST:6700|WT:0.02|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:7|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Crossbow (Light)|OUTPUTORDER:36|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow (Light)$EQMOD=WOOD]
+EQUIPNAME:Dagger|OUTPUTORDER:35|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Elven Chain +2|OUTPUTORDER:8|COST:9150.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Elven Chain|DATA:NAME=Elven Chain +2$EQMOD=MITHRAL_ARMR_MED.PLUS2A]
+EQUIPNAME:Gauntlet (Spiked)|OUTPUTORDER:5|COST:5.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Spiked)|DATA:NAME=Gauntlet (Spiked)$EQMOD=STEEL]
+EQUIPNAME:Headband of Inspired Wisdom +2|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Mace (Heavy/Alchemical Silver)|OUTPUTORDER:34|COST:102.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mace (Heavy)|DATA:NAME=Mace (Heavy/Alchemical Silver)$EQMOD=STEEL.ALCHM]
+EQUIPNAME:Mace +1 (Heavy/Unholy)|OUTPUTORDER:3|COST:18312.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mace (Heavy)|DATA:NAME=Mace +1 (Heavy/Unholy)$EQMOD=STEEL.PLUS1W.UNHOLY]
+EQUIPNAME:Rod (Extend/Lesser)|OUTPUTORDER:9|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Extend/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Scroll (Animate Dead/Divine)|OUTPUTORDER:10|COST:375|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Cause Fear/Divine)|OUTPUTORDER:11|COST:25|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Comprehend Languages/Divine)|OUTPUTORDER:12|COST:25|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Death Ward)|OUTPUTORDER:13|COST:700|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Dimensional Anchor/Divine)|OUTPUTORDER:14|COST:700|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Dismissal/Divine)|OUTPUTORDER:15|COST:700|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Dispel Magic/Divine)|OUTPUTORDER:16|COST:375|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Enthrall)|OUTPUTORDER:17|COST:150|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Ghostbane Dirge/Cleric/5th/Divine/Minor)|OUTPUTORDER:18|COST:250.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Ghostbane Dirge/Cleric/5th/Divine/Minor)$EQMOD=SCROLL_DIVINE.SCROLL_MINOR.D_1USEMI&pipe;SPELLNAME&lbracket;Ghostbane Dirge&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;5&rbracket;]
+EQUIPNAME:Scroll (Invisibility)|OUTPUTORDER:19|COST:150|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Magic Missile)|OUTPUTORDER:20|COST:25|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Remove Blindness/Deafness)|OUTPUTORDER:21|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Remove Curse/Divine)|OUTPUTORDER:22|COST:375|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Remove Disease)|OUTPUTORDER:23|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Resist Energy/Divine)|OUTPUTORDER:24|COST:150|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Restoration (Lesser))|OUTPUTORDER:25|COST:150|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Restoration)|OUTPUTORDER:26|COST:800|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Sending/Divine)|OUTPUTORDER:27|COST:700|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Silence)|OUTPUTORDER:28|COST:150|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Sleep)|OUTPUTORDER:29|COST:25|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Stone Shape/Divine)|OUTPUTORDER:30|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Undetectable Alignment)|OUTPUTORDER:31|COST:150|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Vision of Hell)|OUTPUTORDER:32|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shield +1 (Heavy/Steel)|OUTPUTORDER:4|COST:1170.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:NAME=Shield +1 (Heavy/Steel)$EQMOD=STEEL.PLUS1S]
+EQUIPNAME:Wand (Cure Light Wounds/Cleric/1st)|OUTPUTORDER:0|COST:540.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Cure Light Wounds/Cleric/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;36&rbracket;]
+EQUIPSET:Default|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Chest|ID:0.1.01|VALUE:Angelskin Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Head|ID:0.1.03|VALUE:Circlet of Disguise (Wis)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.04|VALUE:Cloak of Resistance +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.05|VALUE:Mace +1 (Heavy/Unholy)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Headband|ID:0.1.06|VALUE:Headband of Inspired Wisdom +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.07|VALUE:Mace (Heavy/Alchemical Silver)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Rod (Extend/Lesser)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Scroll (Animate Dead/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.14|VALUE:Scroll (Cause Fear/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Scroll (Comprehend Languages/Divine)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.18|VALUE:Scroll (Death Ward)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.19|VALUE:Scroll (Dimensional Anchor/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.22|VALUE:Scroll (Dismissal/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.23|VALUE:Scroll (Dispel Magic/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.26|VALUE:Scroll (Enthrall)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.27|VALUE:Scroll (Ghostbane Dirge/Cleric/5th/Divine/Minor)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.30|VALUE:Scroll (Invisibility)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.31|VALUE:Scroll (Magic Missile)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.34|VALUE:Scroll (Remove Blindness/Deafness)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.35|VALUE:Scroll (Remove Curse/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.38|VALUE:Scroll (Remove Disease)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.39|VALUE:Scroll (Resist Energy/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.42|VALUE:Scroll (Restoration (Lesser))|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.43|VALUE:Scroll (Restoration)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.46|VALUE:Scroll (Sending/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.47|VALUE:Scroll (Silence)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.50|VALUE:Scroll (Sleep)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.51|VALUE:Scroll (Stone Shape/Divine)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.54|VALUE:Scroll (Undetectable Alignment)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.55|VALUE:Scroll (Vision of Hell)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.56|VALUE:Shield +1 (Heavy/Steel)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.57|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.58|VALUE:Bolts (Crossbow/10)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.59|VALUE:Crossbow (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.60|VALUE:Gauntlet (Spiked)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.61|VALUE:Wand (Cure Light Wounds/Cleric/1st)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.62|VALUE:Elven Chain +2|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:Lawful Evil
+DOMAIN:Devil Subdomain (Evil)|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Trickery|DOMAINGRANTS:You are a master of illusions and deceptions. Bluff, Disguise, and Stealth are class skills.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+FOLLOWER:Chaine|TYPE:Follower|RACE:HUMAN|HITDICE:0|FILE:Chaine_level_7.pcg
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
