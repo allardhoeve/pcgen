@@ -2,7 +2,7 @@ PCGVERSION:2.0
 
 # System Information
 CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Fire Mountain - Way of the Wicked, Book 1: Knot of Thorns|CAMPAIGN:Houserules
-VERSION:6.05.00-dev
+VERSION:6.04.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
 CHARACTERTYPE:PC
@@ -101,33 +101,45 @@ SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
 SKILL:Disable Device|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Disguise|OUTPUTORDER:17|
-SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
-SKILL:Escape Artist|OUTPUTORDER:19|
-SKILL:Fly|OUTPUTORDER:20|
-SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
-SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:22|
-SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:23|
-SKILL:Heal|OUTPUTORDER:24|
-SKILL:Intimidate|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
-SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:26|
-SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:27|
-SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:28|
-SKILL:Knowledge (Local)|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
-SKILL:Linguistics (Forgery)|OUTPUTORDER:31|
-SKILL:Perception|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Untrained)|OUTPUTORDER:33|
-SKILL:Profession (Soldier)|OUTPUTORDER:34|
-SKILL:Profession (Torturer)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Ride|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Samurai Mount|OUTPUTORDER:37|
-SKILL:Sense Motive|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:39|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:40|
-SKILL:Stealth|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:42|
-SKILL:Swim|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:18|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:19|
+SKILL:Escape Artist|OUTPUTORDER:20|
+SKILL:Fly|OUTPUTORDER:21|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:22|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
+SKILL:Heal|OUTPUTORDER:26|
+SKILL:Intimidate|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
+SKILL:Knowledge (Local)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:32|
+SKILL:Linguistics (Forgery)|OUTPUTORDER:34|
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:36|
+SKILL:Profession (Soldier)|OUTPUTORDER:37|
+SKILL:Profession (Torturer)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:39|
+SKILL:Ride|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:41|
+SKILL:Sense Motive|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
+SKILL:Stealth|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:48|
+SKILL:Swim|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:50|
+SKILL:Untrained Dexterity|OUTPUTORDER:51|
+SKILL:Untrained Intelligence|OUTPUTORDER:52|
+SKILL:Untrained Strength|OUTPUTORDER:53|
+SKILL:Untrained Wisdom|OUTPUTORDER:54|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:17|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:33|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:45|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:46|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:55|
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Elven
@@ -161,8 +173,8 @@ ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Specialization|A
 USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
 ABILITY:Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Combat Trick|TYPE:RogueClassFeatures.SpecialQuality.Extraordinary.RogueTalent|DESC:You gain a bonus combat feat.
 USERPOOL:Rogue Talent|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Desertion|TYPE:Trait.CampaignTrait|DESC:You have deserted from the Talirean military and been recaptured. To get sent to Branderscar this was not some minor or routine dereliction of duty. Instead, you abandoned your post during a time of crisis—perhaps battle or while defending the Watch Wall. Regardless of the exact circumstances, your laziness and cowardness must have caused loss of life. Punishment&colon; Death by hanging. Benefit&colon; You receive one bonus skill point per level that must be spent on the Profession (Soldier) skill. Profession (Soldier) becomes a class skill for you.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Armor Expert|TYPE:Trait.BasicTrait.CombatTrait|DESC:You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Desertion|TYPE:Trait.CampaignTrait|DESC:You have deserted from the Talirean military and been recaptured. To get sent to Branderscar this was not some minor or routine dereliction of duty. Instead, you abandoned your post during a time of crisis-perhaps battle or while defending the Watch Wall. Regardless of the exact circumstances, your laziness and cowardness must have caused loss of life. Punishment&colon; Death by hanging. Benefit&colon; You receive one bonus skill point per level that must be spent on the Profession (Soldier) skill. Profession (Soldier) becomes a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Armor Expert|TYPE:Trait.BasicTrait.CombatTrait|DESC:You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0.
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Weapon Training I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Weapon Training 1 Pole Arms|TYPE:FighterClassFeatures.WeaponTraining.WeaponTraining1
 USERPOOL:Weapon Training I|POOLPOINTS:0.0
@@ -181,22 +193,23 @@ WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|W
 
 # Character Equipment
 MONEY:0.00
-EQUIPNAME:Belt of Giant Strength +2|OUTPUTORDER:7|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bolt (Crossbow)|OUTPUTORDER:9|COST:0.1|WT:0.1|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt (Crossbow)$EQMOD=STEEL.WOOD]
-EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:8|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Amulet of Natural Armor +2|OUTPUTORDER:3|COST:8000|WT:0.02|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt of Giant Strength +2|OUTPUTORDER:8|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bolt (Crossbow)|OUTPUTORDER:10|COST:0.1|WT:0.1|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt (Crossbow)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:9|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Circlet of Disguise (Wis)|OUTPUTORDER:2|COST:6700|WT:0.02|QUANTITY:1.0|NOTE:
-EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Crossbow (Light)|OUTPUTORDER:13|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow (Light)$EQMOD=WOOD]
-EQUIPNAME:Dagger|OUTPUTORDER:10|COST:2.0|WT:1.0|QUANTITY:9.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
-EQUIPNAME:Dagger (Silver/Masterwork)|OUTPUTORDER:11|COST:322.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Silver/Masterwork)|DATA:NAME=Dagger (Silver/Masterwork)$EQMOD=ALCHM.MWORKW]
-EQUIPNAME:Elven Chain|OUTPUTORDER:4|COST:5150.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Elven Chain|DATA:NAME=Elven Chain$EQMOD=MITHRAL_ARMR_MED]
-EQUIPNAME:Falchion +1 (Alchemical Silver/Furious)|OUTPUTORDER:14|COST:8555.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion|DATA:NAME=Falchion +1 (Alchemical Silver/Furious)$EQMOD=ALCHM.PLUS1W.FURIOUS]
-EQUIPNAME:Glaive-Guisarme +1|OUTPUTORDER:3|COST:2312.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Glaive-Guisarme|DATA:NAME=Glaive-Guisarme +1$EQMOD=BRACE.WOOD.PLUS1W]
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:7|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Crossbow (Light)|OUTPUTORDER:14|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow (Light)$EQMOD=WOOD]
+EQUIPNAME:Dagger|OUTPUTORDER:11|COST:2.0|WT:1.0|QUANTITY:9.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Dagger (Silver/Masterwork)|OUTPUTORDER:12|COST:322.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Silver/Masterwork)|DATA:NAME=Dagger (Silver/Masterwork)$EQMOD=ALCHM.MWORKW]
+EQUIPNAME:Elven Chain|OUTPUTORDER:5|COST:5150.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Elven Chain|DATA:NAME=Elven Chain$EQMOD=MITHRAL_ARMR_MED]
+EQUIPNAME:Falchion +1 (Alchemical Silver/Furious)|OUTPUTORDER:15|COST:8555.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion|DATA:NAME=Falchion +1 (Alchemical Silver/Furious)$EQMOD=ALCHM.PLUS1W.FURIOUS]
+EQUIPNAME:Glaive-Guisarme +1|OUTPUTORDER:4|COST:2312.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Glaive-Guisarme|DATA:NAME=Glaive-Guisarme +1$EQMOD=BRACE.WOOD.PLUS1W]
 EQUIPNAME:Lens of Detection|OUTPUTORDER:1|COST:3500|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Longbow +1 (Composite/+4)|OUTPUTORDER:15|COST:2800.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Longbow +1 (Composite/+4)$EQMOD=WOOD.PLUS1W.BOWSTR&pipe;+4]
-EQUIPNAME:Longsword (Cold Iron/Masterwork)|OUTPUTORDER:12|COST:330.0|WT:4.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword (Cold Iron/Masterwork)|DATA:NAME=Longsword (Cold Iron/Masterwork)$EQMOD=C_IRON.MWORKW]
-EQUIPNAME:Longsword +1 (Flaming)|OUTPUTORDER:16|COST:8315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword +1 (Flaming)$EQMOD=STEEL.PLUS1W.FLAME]
-EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:5|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
+EQUIPNAME:Longbow +1 (Composite/+4)|OUTPUTORDER:16|COST:2800.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Longbow +1 (Composite/+4)$EQMOD=WOOD.PLUS1W.BOWSTR&pipe;+4]
+EQUIPNAME:Longsword (Cold Iron/Masterwork)|OUTPUTORDER:13|COST:330.0|WT:4.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword (Cold Iron/Masterwork)|DATA:NAME=Longsword (Cold Iron/Masterwork)$EQMOD=C_IRON.MWORKW]
+EQUIPNAME:Longsword +1 (Flaming)|OUTPUTORDER:17|COST:8315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword +1 (Flaming)$EQMOD=STEEL.PLUS1W.FLAME]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:6|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.01|VALUE:Elven Chain|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
@@ -214,6 +227,7 @@ EQUIPSET:Carried|ID:0.1.15|VALUE:Falchion +1 (Alchemical Silver/Furious)|QUANTIT
 EQUIPSET:Carried|ID:0.1.16|VALUE:Longbow +1 (Composite/+4)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.17|VALUE:Longsword +1 (Flaming)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Head|ID:0.1.18|VALUE:Circlet of Disguise (Wis)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.19|VALUE:Amulet of Natural Armor +2|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -221,7 +235,7 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:Lawful Evil
+DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:LE
 
 # Character Spells Information
 
