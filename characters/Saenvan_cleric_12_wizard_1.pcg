@@ -59,7 +59,8 @@ ALIGN:LE
 RACE:Human
 
 # Character Class(es)
-CLASS:Cleric|LEVEL:13|SKILLPOOL:0
+CLASS:Cleric|LEVEL:12|SKILLPOOL:0
+CLASS:Wizard|SUBCLASS:Enchanter|LEVEL:1|SKILLPOOL:0
 CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=3|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
@@ -72,7 +73,7 @@ CLASSABILITIESLEVEL:Cleric=9|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=10|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=11|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=12|HITPOINTS:1|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Cleric=13|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=1|HITPOINTS:6|SPECIALTIES:[SPECIALTY:Enchantment]|SKILLSGAINED:7|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:315000
@@ -122,7 +123,7 @@ SKILL:Knowledge (Nobility)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|CO
 SKILL:Knowledge (Planes)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Cleric|RANKS:11.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
-SKILL:Linguistics|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Draconic|ASSOCIATEDDATA:Daemon
+SKILL:Linguistics|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Draconic|ASSOCIATEDDATA:Daemon|ASSOCIATEDDATA:Read Lips|ASSOCIATEDDATA:Goblin
 SKILL:Linguistics (Forgery)|OUTPUTORDER:36|
 SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Cleric|RANKS:6.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Oratory)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Cleric|RANKS:2.0|COST:1|CLASSSKILL:Y]
@@ -134,7 +135,7 @@ SKILL:Samurai Mount|OUTPUTORDER:43|
 SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
-SKILL:Spellcraft|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:51|
 SKILL:Swim|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
@@ -147,12 +148,12 @@ SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:48|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
 SKILL:Use Magic Device|OUTPUTORDER:59|
 
 # Character Languages
-LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Daemon|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Infernal
+LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Daemon|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Goblin|LANGUAGE:Infernal|LANGUAGE:Read Lips
 
 # Character Feats
 FEATPOOL:0.0
@@ -164,6 +165,11 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Inf
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Wisdom|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Arcane Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcane Bond ~ Bonded Object|TYPE:WizardClassFeatures.ArcaneBond.SpecialQuality|DESC:Objects that are the subject of an arcane bond must fall into one of the following categories&colon; amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be held in one hand. When attempting to cast a spell without your bonded object worn or in hand, you must make a concentration check or lose the spell (DC 20 + the spell's level). A ring or amulet occupies the ring or neck slot accordingly.
+USERPOOL:Arcane Bond|POOLPOINTS:0.0
+ABILITY:Arcane Opposition School|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divination Opposition School|TYPE:WizardClassFeatures.SpecialQuality.ClassSpecialization.ArcaneOppositionSchool|DESC:You have chosen divination spells as an opposition school. Preparing an divination spell takes up two spell slots of the same level. You take a -4 penalty on any skill checks made when crafting a magic item that has an divination spell as a prerequisite.
+ABILITY:Arcane Opposition School|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Evocation Opposition School|TYPE:WizardClassFeatures.SpecialQuality.ClassSpecialization.ArcaneOppositionSchool|DESC:You have chosen evocation spells as an opposition school. Preparing an evocation spell takes up two spell slots of the same level. You take a -4 penalty on any skill checks made when crafting a magic item that has an evocation spell as a prerequisite.
+USERPOOL:Arcane Opposition School|POOLPOINTS:0.0
 ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Negative Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergy.Channel Energy.Channel Energy Negative.Channel Negative Energy|DESC:You can unleash a wave of negative energy. You must choose to deal %1d%2 points of negative energy damage to living creatures or to heal undead creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelNegativeEnergyDice&pipe;ClericChannelNegativeEnergyDieSize&pipe;ClericChannelNegativeEnergyDC&pipe;ClericChannelEnergyTimes
 USERPOOL:Channel Energy|POOLPOINTS:0.0
 ABILITY:Cleric Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Cleric Archetype ~ Missionary|TYPE:Archetype.ClericArchetype.ClericSpontaneousCasting|DESC:The missionary is the voice of her religion in the world. Where others nurture the faith among believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call to all around to heed the truth, or obey the call to war and crusade against the enemies of the church.
@@ -173,15 +179,17 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantB
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Wondrous Item|TYPE:ItemCreation|DESC:You can create wondrous items, a type of magic item.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Leadership|TYPE:Leadership|DESC:You attract followers to your cause and a companion to join you on your adventure.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Spell Focus|APPLIEDTO:Enchantment|TYPE:General|DESC:Any spells you cast from your chosen school of magic are very hard to resist.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Scribe Scroll|TYPE:ItemCreation.ArcaneBloodline|DESC:You can create magic scrolls.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Spell Penetration|TYPE:General|DESC:Your spells break through spell resistance much more easily than most.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Enchantment|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Penetration|TYPE:General.InfernalBloodline.DragonShamanBonus|DESC:Your spells break through spell resistance more easily than most.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perform (Oratory),Perform (Oratory),Perform (Oratory),Knowledge (Planes),Perform (Oratory),Profession (Barrister),Perform (Oratory)|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Planes),Perform (Oratory),Profession (Barrister),Perform (Oratory),Linguistics,Linguistics|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Spell Penetration Outsiders|APPLIEDTO:,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassCleric|DESC:Add +1 on caster level checks made to overcome the spell resistance of outsiders.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Focused Arcane School|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Focused Arcane School ~ Controller School|TYPE:Focused Arcane School.WizardEnchantment.WizardEnchantingSmile.WizardAuraOfDespair
+USERPOOL:Focused Arcane School|POOLPOINTS:0.0
 ABILITY:Headband of Intellect Skill Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Headband of Intellect Skill Selection|APPLIEDTO:Use Magic Device|TYPE:HeadbandSkill
 USERPOOL:Headband of Intellect Skill Choice|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Blasphemy|TYPE:Trait.CampaignTrait|DESC:Either you have defamed the great god Mitra or you have been found guilty of worshipping one of the forbidden deities (who preeminent among them is Asmodeus). Punishment&colon; Death by burning. Benefit&colon; +2 trait bonus to Knowledge (Religion) and Knowledge (Religion) becomes a class skill for you.
@@ -294,10 +302,25 @@ CALCEQUIPSET:0.1
 # Character Deity/Domain
 DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:LE
 DOMAIN:Devil Subdomain (Evil)|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
-DOMAIN:Trickery|DOMAINGRANTS:You are a master of illusions and deceptions. Bluff, Disguise, and Stealth are class skills.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Trickery|DOMAINGRANTS:You are a master of illusions and deceptions. Bluff, Disguise, and Stealth are class skills.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:12]
 
 # Character Spells Information
 SPELLBOOK:Magic Item|TYPE:4
+SPELLNAME:Screen|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:DOMAIN|NAME:Trickery]
+SPELLNAME:Acid Splash|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Arcane Mark|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Bleed|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Daze|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Disrupt Undead|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Ghost Sound|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Haunted Fey Aspect|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Mending|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Message|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Open/Close|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Resistance|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
+SPELLNAME:Touch of Fatigue|TIMES:1|CLASS:Wizard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Wizard]
 
 # Character Description/Bio/History
 CHARACTERBIO:
