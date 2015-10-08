@@ -334,7 +334,7 @@ CHARACTERDMNOTES:
 # Kits
 
 # Character Master/Follower
-FOLLOWER:Chaine|TYPE:Follower|RACE:HUMAN|HITDICE:0|FILE:Chaine_level_11.pcg
+FOLLOWER:Chaine|TYPE:Follower|RACE:HUMAN|HITDICE:0|FILE:Chaine_level_12.pcg
 
 # Character Notes Tab
 
