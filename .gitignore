@@ -6,3 +6,4 @@ data/pcgen-nfd
 data/pcgen-houserules
 .DS_Store
 *.bak
+.idea
