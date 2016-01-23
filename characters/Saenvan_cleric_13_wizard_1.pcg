@@ -2,7 +2,7 @@ PCGVERSION:2.0
 
 # System Information
 CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Fire Mountain - Way of the Wicked, Book 1: Knot of Thorns|CAMPAIGN:Houserules
-VERSION:6.04.01
+VERSION:6.06.00 RC1
 ROLLMETHOD:2|EXPRESSION:High Fantasy
 PURCHASEPOINTS:Y|TYPE:High Fantasy
 CHARACTERTYPE:PC
@@ -84,6 +84,7 @@ EXPERIENCETABLE:Medium
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:FACE_5]
 TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Wizard Spellbook]
 TEMPLATESAPPLIED:[NAME:Human]
 TEMPLATESAPPLIED:[NAME:Way of the Wicked Villain]
 TEMPLATESAPPLIED:[NAME:Nessian Knot Training]
@@ -150,8 +151,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
-SKILL:Use Magic Device|OUTPUTORDER:58|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
+SKILL:Use Magic Device|OUTPUTORDER:59|
 
 # Character Languages
 LANGUAGE:Aboleth|LANGUAGE:Abyssal|LANGUAGE:Auran|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Daemon|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Goblin|LANGUAGE:Ignan|LANGUAGE:Infernal|LANGUAGE:Read Lips|LANGUAGE:Undercommon
@@ -171,14 +172,16 @@ USERPOOL:Arcane Bond|POOLPOINTS:0.0
 ABILITY:Arcane Opposition School|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divination Opposition School|TYPE:WizardClassFeatures.SpecialQuality.ClassSpecialization.ArcaneOppositionSchool|DESC:You have chosen divination spells as an opposition school. Preparing an divination spell takes up two spell slots of the same level. You take a -4 penalty on any skill checks made when crafting a magic item that has an divination spell as a prerequisite.
 ABILITY:Arcane Opposition School|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Evocation Opposition School|TYPE:WizardClassFeatures.SpecialQuality.ClassSpecialization.ArcaneOppositionSchool|DESC:You have chosen evocation spells as an opposition school. Preparing an evocation spell takes up two spell slots of the same level. You take a -4 penalty on any skill checks made when crafting a magic item that has an evocation spell as a prerequisite.
 USERPOOL:Arcane Opposition School|POOLPOINTS:0.0
-ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Negative Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergy.Channel Energy.Channel Energy Negative.Channel Negative Energy|DESC:You can unleash a wave of negative energy. You must choose to deal %1d%2 points of negative energy damage to living creatures or to heal undead creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelNegativeEnergyDice&pipe;ClericChannelNegativeEnergyDieSize&pipe;ClericChannelNegativeEnergyDC&pipe;ClericChannelEnergyTimes
+ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Negative Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergySelection.ChannelEnergy.Channel Energy.Channel Energy Negative.Channel Negative Energy|DESC:You can unleash a wave of negative energy. You must choose to deal %1d%2 points of negative energy damage to living creatures or to heal undead creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelNegativeEnergyDice&pipe;ClericChannelNegativeEnergyDieSize&pipe;ClericChannelNegativeEnergyDC&pipe;ClericChannelEnergyTimes
 USERPOOL:Channel Energy|POOLPOINTS:0.0
+ABILITY:Class Level +2 Ability Adjustment|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Disable the Creature with Class Level Bonus|TYPE:ClassLevelAdjustmentMinus2.ClassLevelAdjustmentPlus2.ClassLevelAdjustmentPlus4
+USERPOOL:Class Level +2 Ability Adjustment|POOLPOINTS:0.0
 ABILITY:Cleric Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Cleric Archetype ~ Missionary|TYPE:Archetype.ClericArchetype.ClericSpontaneousCasting|DESC:The missionary is the voice of her religion in the world. Where others nurture the faith among believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call to all around to heed the truth, or obey the call to war and crusade against the enemies of the church.
 USERPOOL:Cleric Archetype|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Channel Smite|TYPE:Combat.UndeadLordBonus|DESC:You can channel your divine energy through your weapon.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Wondrous Item|TYPE:ItemCreation|DESC:You can create wondrous items, a type of magic item.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Leadership|TYPE:Leadership|DESC:You attract followers to your cause and a companion to join you on your adventure.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Leadership|TYPE:General|DESC:You attract followers to your cause and a companion to join you on your adventure.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Spell Focus|APPLIEDTO:Enchantment|TYPE:General|DESC:Any spells you cast from your chosen school of magic are very hard to resist.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Spell Penetration|TYPE:General|DESC:Your spells break through spell resistance much more easily than most.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Enchantment|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
@@ -307,9 +310,9 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:LE
-DOMAIN:Trickery|DOMAINGRANTS:You are a master of illusions and deceptions. Bluff, Disguise, and Stealth are class skills.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:12]
+DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:LE
 DOMAIN:Devil Subdomain (Evil)|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Trickery|DOMAINGRANTS:You are a master of illusions and deceptions. Bluff, Disguise, and Stealth are class skills.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:12]
 
 # Character Spells Information
 SPELLBOOK:Magic Item|TYPE:4
