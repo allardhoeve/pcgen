@@ -1,10 +1,10 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Bestiary|CAMPAIGN:Fire Mountain - Way of the Wicked, Book 1: Knot of Thorns|CAMPAIGN:Houserules
-VERSION:6.04.01
-ROLLMETHOD:0|EXPRESSION:0
-PURCHASEPOINTS:N
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Fire Mountain - Way of the Wicked, Book 1: Knot of Thorns|CAMPAIGN:Houserules
+VERSION:6.06.00 RC1
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:0
@@ -71,11 +71,11 @@ CLASSABILITIESLEVEL:Cleric=8|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=9|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=10|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=11|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Cleric=12|HITPOINTS:8|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Cleric=13|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=12|HITPOINTS:1|PRESTAT:WIS=1|SKILLSGAINED:7|SKILLSREMAINING:-7
+CLASSABILITIESLEVEL:Cleric=13|HITPOINTS:8|SKILLSGAINED:7|SKILLSREMAINING:7
 
 # Character Experience
-EXPERIENCE:445000
+EXPERIENCE:315000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -94,14 +94,14 @@ REGION:None
 SKILL:Acrobatics|OUTPUTORDER:1|
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Cleric|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Cleric|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
 SKILL:Climb|OUTPUTORDER:9|
 SKILL:Craft (Untrained)|OUTPUTORDER:10|
-SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Cleric|RANKS:13.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
@@ -122,20 +122,20 @@ SKILL:Knowledge (Nobility)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|CO
 SKILL:Knowledge (Planes)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Cleric|RANKS:11.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
-SKILL:Linguistics|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Cleric|RANKS:9.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Draconic|ASSOCIATEDDATA:Daemon|ASSOCIATEDDATA:Infernal|ASSOCIATEDDATA:Celestial|ASSOCIATEDDATA:Undercommon|ASSOCIATEDDATA:Terran|ASSOCIATEDDATA:Gnoll|ASSOCIATEDDATA:Read Lips
+SKILL:Linguistics|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Cleric|RANKS:7.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Draconic|ASSOCIATEDDATA:Daemon|ASSOCIATEDDATA:Read Lips|ASSOCIATEDDATA:Goblin|ASSOCIATEDDATA:Auran|ASSOCIATEDDATA:Ignan|ASSOCIATEDDATA:Undercommon|ASSOCIATEDDATA:Aboleth
 SKILL:Linguistics (Forgery)|OUTPUTORDER:36|
-SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Cleric|RANKS:11.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Cleric|RANKS:6.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Oratory)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Cleric|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:39|
 SKILL:Profession (Barrister)|OUTPUTORDER:40|
 SKILL:Profession (Untrained)|OUTPUTORDER:41|
 SKILL:Ride|OUTPUTORDER:42|
 SKILL:Samurai Mount|OUTPUTORDER:43|
-SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Cleric|RANKS:13.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
-SKILL:Spellcraft|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Cleric|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Cleric|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:51|
 SKILL:Swim|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Untrained Charisma|OUTPUTORDER:53|
@@ -147,12 +147,12 @@ SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:48|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
 SKILL:Use Magic Device|OUTPUTORDER:58|
 
 # Character Languages
-LANGUAGE:Abyssal|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Daemon|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Gnoll|LANGUAGE:Infernal|LANGUAGE:Read Lips|LANGUAGE:Terran|LANGUAGE:Undercommon
+LANGUAGE:Aboleth|LANGUAGE:Abyssal|LANGUAGE:Auran|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Daemon|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Goblin|LANGUAGE:Ignan|LANGUAGE:Infernal|LANGUAGE:Read Lips|LANGUAGE:Undercommon
 
 # Character Feats
 FEATPOOL:0.0
@@ -164,22 +164,22 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Inf
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Wisdom|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Negative Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergy.Channel Energy.Channel Energy Negative.Channel Negative Energy|DESC:You can unleash a wave of negative energy. You must choose to deal %1d%2 points of negative energy damage to living creatures or to heal undead creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelNegativeEnergyDice&pipe;ClericChannelNegativeEnergyDieSize&pipe;ClericChannelNegativeEnergyDC&pipe;ClericChannelEnergyTimes
+ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Negative Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergySelection.ChannelEnergy.Channel Energy.Channel Energy Negative.Channel Negative Energy|DESC:You can unleash a wave of negative energy. You must choose to deal %1d%2 points of negative energy damage to living creatures or to heal undead creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelNegativeEnergyDice&pipe;ClericChannelNegativeEnergyDieSize&pipe;ClericChannelNegativeEnergyDC&pipe;ClericChannelEnergyTimes
 USERPOOL:Channel Energy|POOLPOINTS:0.0
 ABILITY:Cleric Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Cleric Archetype ~ Missionary|TYPE:Archetype.ClericArchetype.ClericSpontaneousCasting|DESC:The missionary is the voice of her religion in the world. Where others nurture the faith among believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call to all around to heed the truth, or obey the call to war and crusade against the enemies of the church.
 USERPOOL:Cleric Archetype|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Channel Smite|TYPE:Combat.UndeadLordBonus|DESC:You can channel your divine energy through your weapon.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Wondrous Item|TYPE:ItemCreation|DESC:You can create wondrous items, a type of magic item.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Leadership|TYPE:Leadership|DESC:You attract followers to your cause and a companion to join you on your adventure.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Divine Leadership|TYPE:General|DESC:You attract followers to your cause and a companion to join you on your adventure.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Spell Focus|APPLIEDTO:Enchantment|TYPE:General|DESC:Any spells you cast from your chosen school of magic are very hard to resist.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Scribe Scroll|TYPE:ItemCreation.ArcaneBloodline|DESC:You can create magic scrolls.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Spell Penetration|TYPE:General|DESC:Your spells break through spell resistance much more easily than most.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Enchantment|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Penetration|TYPE:General.InfernalBloodline.DragonShamanBonus|DESC:Your spells break through spell resistance more easily than most.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perform (Oratory),Perform (Oratory),Perform (Oratory),Knowledge (Planes),Perform (Oratory),Profession (Barrister),Perform (Oratory)|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Planes),Perform (Oratory),Profession (Barrister),Perform (Oratory),Linguistics,Linguistics|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Spell Penetration Outsiders|APPLIEDTO:,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassCleric|DESC:Add +1 on caster level checks made to overcome the spell resistance of outsiders.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Headband of Intellect Skill Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Headband of Intellect Skill Selection|APPLIEDTO:Use Magic Device|TYPE:HeadbandSkill
@@ -215,7 +215,9 @@ EQUIPNAME:Ring of Feather Falling|OUTPUTORDER:7|COST:2200|WT:0.0|QUANTITY:1.0|NO
 EQUIPNAME:Ring of Protection +2|OUTPUTORDER:8|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Rod (Extend/Lesser)|OUTPUTORDER:12|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Extend/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
 EQUIPNAME:Rod (Silent/Lesser)|OUTPUTORDER:38|COST:3000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Silent/Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Scimitar +1 (Holy)|OUTPUTORDER:43|COST:18315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:NAME=Scimitar +1 (Holy)$EQMOD=STEEL.PLUS1W.HOLY]
 EQUIPNAME:Scroll (Animate Dead/Divine)|OUTPUTORDER:13|COST:375|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Scroll (Breath of Life)|OUTPUTORDER:45|COST:1125|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Cause Fear/Divine)|OUTPUTORDER:14|COST:25|WT:0.01|QUANTITY:2.0|NOTE:
 EQUIPNAME:Scroll (Comprehend Languages/Divine)|OUTPUTORDER:15|COST:25|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Death Ward)|OUTPUTORDER:16|COST:700|WT:0.01|QUANTITY:2.0|NOTE:
@@ -238,8 +240,9 @@ EQUIPNAME:Scroll (Sleep)|OUTPUTORDER:32|COST:25|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Stone Shape/Divine)|OUTPUTORDER:33|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Undetectable Alignment)|OUTPUTORDER:34|COST:150|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Vision of Hell)|OUTPUTORDER:35|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Wind Walk)|OUTPUTORDER:0|COST:1650|WT:0.01|QUANTITY:1.0|NOTE:
 EQUIPNAME:Shield +2 (Heavy/Steel)|OUTPUTORDER:5|COST:4170.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:NAME=Shield +2 (Heavy/Steel)$EQMOD=STEEL.PLUS2S]
-EQUIPNAME:Strand of Prayer Beads (Lesser)|OUTPUTORDER:0|COST:9600|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Strand of Prayer Beads (Lesser)|OUTPUTORDER:44|COST:9600|WT:0.5|QUANTITY:1.0|NOTE:
 EQUIPNAME:Wand (Cure Light Wounds/Cleric/1st)|OUTPUTORDER:0|COST:540.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand (Cure Light Wounds/Cleric/1st)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;1&rbracket; CHARGES&lbracket;36&rbracket;]
 EQUIPSET:Default|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Chest|ID:0.1.01|VALUE:Angelskin Shirt|QUANTITY:1.0|USETEMPMODS:Y
@@ -285,6 +288,9 @@ EQUIPSET:Headband|ID:0.1.68|VALUE:Headband of Mental Prowess (INT/WIS) +2|QUANTI
 EQUIPSET:Equipped|ID:0.1.69|VALUE:Ioun Stone (Dark blue Rhomboid)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.70|VALUE:Ring of Feather Falling|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.71|VALUE:Ring of Protection +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.72|VALUE:Scimitar +1 (Holy)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.73|VALUE:Strand of Prayer Beads (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.74|VALUE:Scroll (Breath of Life)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -292,9 +298,9 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:LE
+DEITY:Asmodeus|DEITYDOMAINS:[DOMAIN:Evil|DOMAIN:Fire|DOMAIN:Law|DOMAIN:Magic|DOMAIN:Trickery|DOMAIN:Arcane Subdomain|DOMAIN:Ash Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Smoke Subdomain]|ALIGNALLOW:|DESC:God of tyranny, slavery, pride, contracts|DEITYFAVWEAP:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]|DEITYALIGN:LE
 DOMAIN:Devil Subdomain (Evil)|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
-DOMAIN:Trickery|DOMAINGRANTS:You are a master of illusions and deceptions. Bluff, Disguise, and Stealth are class skills.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Trickery|DOMAINGRANTS:You are a master of illusions and deceptions. Bluff, Disguise, and Stealth are class skills.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:13]
 
 # Character Spells Information
 SPELLBOOK:Magic Item|TYPE:4
