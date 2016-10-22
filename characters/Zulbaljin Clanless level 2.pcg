@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Linnorm Houserules
+CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Linnorm Houserules|CAMPAIGN:People of the North
 VERSION:6.06.01
 ROLLMETHOD:2|EXPRESSION:High Fantasy
 PURCHASEPOINTS:Y|TYPE:High Fantasy
@@ -77,7 +77,7 @@ TEMPLATESAPPLIED:[NAME:Ogrekin]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Bluff|OUTPUTORDER:4|
@@ -100,12 +100,12 @@ SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
 SKILL:Heal|OUTPUTORDER:25|
-SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
 SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
-SKILL:Perception|OUTPUTORDER:32|
+SKILL:Perception|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:33|
 SKILL:Profession (Untrained)|OUTPUTORDER:34|
 SKILL:Ride|OUTPUTORDER:35|
@@ -113,7 +113,7 @@ SKILL:Samurai Mount|OUTPUTORDER:36|
 SKILL:Sense Motive|OUTPUTORDER:37|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:38|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:39|
-SKILL:Stealth|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Survival|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Swim|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Bloodrager|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Untrained Charisma|OUTPUTORDER:45|
@@ -137,14 +137,14 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Bloodrager Bloodline|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bloodrager Bloodline ~ Draconic|APPLIEDTO:White|TYPE:Bloodrager Class Feature.SpecialQuality.ClassSpecialization.BloodragerBloodline|DESC:At some point in your family's history, a dragon interbred with your bloodline. Now, its ancient power fuels your bloodrage.
+ABILITY:Bloodrager Bloodline|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Raging Blood ~ Ice Troll|TYPE:Bloodrager Class Feature.SpecialQuality.ClassSpecialization.BloodragerBloodline.RagingBloodBloodline|DESC:There is the taint of Baba Yaga's ice trolls in your blood.
 USERPOOL:Bloodrager Bloodline|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Endurance|TYPE:General.DestinedBloodline.UndeadBloodline.BorealBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.ImperiousBloodline.AccursedBloodline.DestinedBloodragerBloodline.UndeadBloodragerBloodline|DESC:Harsh conditions or long exertions do not easily tire you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cleave|TYPE:Combat.AbyssalBloodline.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can strike two adjacent foes with a single swing.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bloodrager|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perception,Perception|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
@@ -152,8 +152,8 @@ ABILITY:Ogrekin Beneficial Deformity|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Og
 USERPOOL:Ogrekin Beneficial Deformity|POOLPOINTS:0.0
 ABILITY:Ogrekin Disadvantageous Deformity|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ogrekin ~ No Deformities Disadvantageous|TYPE:SpecialQuality.OgrekinDisadvantageousDeformity|DESC:You have no specific deformities.
 USERPOOL:Ogrekin Disadvantageous Deformity|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Highlander|TYPE:Trait.RegionalTrait|DESC:You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands. You gain a +1 trait bonus on Stealth checks, and Stealth is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Talent|APPLIEDTO:CATEGORY=Internal&pipe;Spell ~ Detect Magic|TYPE:Trait.BasicTrait.MagicTrait|DESC:Either from inborn talent, whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip. You may cast %1 once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based.&pipe;%LIST
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Talent|APPLIEDTO:CATEGORY=Internal&pipe;Spell ~ Ray of Frost|TYPE:Trait.BasicTrait.MagicTrait|DESC:Either from inborn talent, whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip. You may cast %1 once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based.&pipe;%LIST
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Varki Landspeaker|TYPE:Trait.BasicTrait.RaceTrait.HumanTrait|DESC:You gain a +1 trait bonus on Survival checks in arctic or cold terrain. In addition, while in such terrain, you may query the spirits of the land once per day to gain a +5 trait bonus on a single skill check to follow tracks, forage, or find shelter.
 USERPOOL:Traits|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
@@ -171,16 +171,16 @@ WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sw
 WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:36.8900000000000005684341886080801486968994140625
-EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:29|COST:20|WT:1.0|QUANTITY:3.0|NOTE:
+MONEY:21.8900000000000005684341886080801486968994140625
+EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:29|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Arrows (20)|OUTPUTORDER:15|COST:1.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrows (20)|DATA:NAME=Arrows (20)$EQMOD=STEEL.WOOD]
 EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:9|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Battleaxe|OUTPUTORDER:31|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe|DATA:NAME=Battleaxe$EQMOD=STEEL]
-EQUIPNAME:Bear Trap|OUTPUTORDER:21|COST:2|WT:10.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battleaxe|OUTPUTORDER:0|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe|DATA:NAME=Battleaxe$EQMOD=STEEL]
 EQUIPNAME:Bedroll|OUTPUTORDER:11|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Blackfire Clay|OUTPUTORDER:0|COST:20|WT:10.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Boots (Fire-Resistant)|OUTPUTORDER:36|COST:20|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Chain Shirt|OUTPUTORDER:4|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt$EQMOD=STEEL]
-EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Cleats|OUTPUTORDER:0|COST:5|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Climber's Kit|OUTPUTORDER:13|COST:80|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:6|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Dagger|OUTPUTORDER:30|COST:2.0|WT:1.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
@@ -188,7 +188,7 @@ EQUIPNAME:Earth Breaker|OUTPUTORDER:32|COST:40.0|WT:14.0|QUANTITY:1.0|NOTE:|CUST
 EQUIPNAME:Firewood (Per Day)|OUTPUTORDER:12|COST:0.01|WT:20.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Grappling Hook|OUTPUTORDER:16|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Longbow|OUTPUTORDER:33|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow|DATA:NAME=Longbow$EQMOD=WOOD]
-EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:3|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer|DATA:NAME=Masterwork Warhammer$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Masterwork Warhammer (Cold Iron)|OUTPUTORDER:3|COST:324.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer|DATA:NAME=Masterwork Warhammer (Cold Iron)$EQMOD=MWORKW.C_IRON]
 EQUIPNAME:Musical Instrument (Flute)|OUTPUTORDER:34|COST:5|WT:3.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Outfit (Cold-Weather)|OUTPUTORDER:5|COST:0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Cold-Weather)|DATA:NAME=Outfit (Cold-Weather)$COSTMOD=-8]
 EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:10|COST:50|WT:0.0|QUANTITY:4.0|NOTE:
@@ -211,15 +211,11 @@ EQUIPNAME:Tent (Hanging)|OUTPUTORDER:14|COST:20|WT:15.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.02|VALUE:Outfit (Cold-Weather)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.03|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.06|VALUE:Alchemist's Fire (Flask)|QUANTITY:3.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.09|VALUE:Dagger|QUANTITY:5.0|USETEMPMODS:Y
-EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Feet|ID:0.1.11|VALUE:Skis|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Feet|ID:0.1.12|VALUE:Snowshoes|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.17|VALUE:Battleaxe|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.18|VALUE:Earth Breaker|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.19|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.21|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.33|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Masterwork)|ID:0.1.33.01|VALUE:Potion of Cure Light Wounds|QUANTITY:4.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Masterwork)|ID:0.1.33.03|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
@@ -232,7 +228,6 @@ EQUIPSET:Backpack (Masterwork)|ID:0.1.33.09|VALUE:Rope (Silk/50 ft)|QUANTITY:1.0
 EQUIPSET:Backpack (Masterwork)|ID:0.1.33.10|VALUE:Potion of Enlarge Person|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Masterwork)|ID:0.1.33.13|VALUE:Potion of Protection from Evil|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Masterwork)|ID:0.1.33.14|VALUE:Roperunner|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack (Masterwork)|ID:0.1.33.15|VALUE:Bear Trap|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.34|VALUE:Musical Instrument (Flute)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.35|VALUE:Scroll (Obscuring Mist/Arcane)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.36|VALUE:Scroll Case|QUANTITY:1.0|USETEMPMODS:Y
@@ -246,6 +241,7 @@ EQUIPSET:Carried|ID:0.1.38|VALUE:Boots (Fire-Resistant)|QUANTITY:1.0|USETEMPMODS
 EQUIPSET:Armor|ID:0.1.39|VALUE:Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.40|VALUE:Smoked Goggles|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.41|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.42|VALUE:Masterwork Warhammer (Cold Iron)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
