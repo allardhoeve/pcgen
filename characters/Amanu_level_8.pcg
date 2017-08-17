@@ -1,0 +1,267 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder RPG Core Supplements
+VERSION:6.06.01
+ROLLMETHOD:2|EXPRESSION:Epic Fantasy
+PURCHASEPOINTS:Y|TYPE:Epic Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:25
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Amanu
+TABNAME:
+PLAYERNAME:Allard
+HEIGHT:70
+WEIGHT:175
+AGE:23
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:10
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:18
+STAT:CHA|SCORE:10
+ALIGN:LN
+RACE:Vanara
+
+# Character Class(es)
+CLASS:Monk|LEVEL:8|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Monk=1|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=2|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=3|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=4|HITPOINTS:8|PRESTAT:WIS=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=5|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=6|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=7|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=8|HITPOINTS:8|PRESTAT:WIS=-1|PRESTAT:STR=5|SKILLSGAINED:5|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:51000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Monk|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
+SKILL:Heal|OUTPUTORDER:25|
+SKILL:Intimidate|OUTPUTORDER:26|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
+SKILL:Knowledge (History)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Local)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Monk|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Monk|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Monk|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:37|
+SKILL:Profession (Untrained)|OUTPUTORDER:38|
+SKILL:Ride|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:40|
+SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
+SKILL:Stealth|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Monk|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:47|
+SKILL:Swim|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:49|
+SKILL:Untrained Dexterity|OUTPUTORDER:50|
+SKILL:Untrained Intelligence|OUTPUTORDER:51|
+SKILL:Untrained Strength|OUTPUTORDER:52|
+SKILL:Untrained Wisdom|OUTPUTORDER:53|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:44|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:54|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Sylvan|LANGUAGE:Vanaran
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Blind-Fight|TYPE:Combat.AttackOption.DraconicBloodline.InfernalBloodline.DeepearthBloodline.DreamspunBloodline.ShadowBloodline.StarsoulBloodline.AccursedBloodline.DraconicBloodragerBloodline.InfernalBloodragerBloodline|DESC:You are skillled at attacking opponents that you cannot clearly perceive.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Monkey Style|TYPE:Combat.Style|DESC:Your unarmed fighting style is nimble and unpredictable, full of ground rolls and short leaps.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat.ShadowBloodline.ArcaneBloodragerBloodline|DESC:You can draw weapons faster than most.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Ki Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ki Power ~ Gaseous Form|TYPE:SpecialQuality.KiPower.SpellLike|DESC:Spend 1 ki point to use gaseous form (self-only) as a spell-like ability (caster level %1).&pipe;classlevel("Monk")
+USERPOOL:Ki Power|POOLPOINTS:0.0
+ABILITY:Monk Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Monk Archetype ~ Qinggong Monk Wholeness of Body|TYPE:Archetype.MonkArchetype.MonkWholenessOfBody|DESC:Swap Wholeness of Body for a ki power.
+ABILITY:Monk Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Monk Archetype ~ Zen Archer|TYPE:Archetype.MonkArchetype.MonkBonusFeats.MonkStunningFist.MonkEvasion.MonkManeuverTraining.MonkStillMind.MonkPurityOfBody.MonkImprovedEvasion.MonkDiamondBody.MonkTongueOfTheSunAndMoon.MonkFlurryOfBlows|DESC:Some monks seek to become one with another weapon entirely-the bow. The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's limbs, and the flight of an arrow fired true.
+USERPOOL:Monk Archetype|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Friend in Every Town|APPLIEDTO:Knowledge (Local)|TYPE:Trait.BasicTrait.SocialTrait|DESC:You have no problem making friends and learning information from them wherever you go. You gain a +1 trait bonus on all Knowledge (local) checks and Diplomacy checks. One of these skills (your choice) is always a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Nature's Mimic|TYPE:Trait.BasicTrait.CombatTrait|DESC:Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world. You gain a +1 trait bonus on all Knowledge (nature) checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained.
+USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:Zen Archer Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Monk ~ Improved Precise Shot|TYPE:ZenArcher.ZenArcherFeat
+ABILITY:Zen Archer Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Monk ~ Parting Shot|TYPE:ZenArcher.ZenArcherFeat
+ABILITY:Zen Archer Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Monk ~ Precise Shot|TYPE:ZenArcher.ZenArcherFeat
+USERPOOL:Zen Archer Feat|POOLPOINTS:0.0
+ABILITY:Zen Archer Point Blank Master|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Archer Point Blank Master|APPLIEDTO:CATEGORY=FEAT&pipe;Weapon Specialization&pipe;Shortbow|TYPE:|DESC:You are adept at firing ranged weapons in close quarters. Choose one type of ranged weapon. You do not provoke attacks of opportunity when firing the selected weapon while threatened.
+USERPOOL:Zen Archer Point Blank Master|POOLPOINTS:0.0
+ABILITY:Zen Archer Weapon Focus Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Weapon Focus ~ Zen Archer|APPLIEDTO:Shortbow|TYPE:ClassFeatures.MonkClassFeatures.ZenArcherMonkWeaponChoice
+USERPOOL:Zen Archer Weapon Focus Choice|POOLPOINTS:0.0
+ABILITY:Zen Archer Weapon Specialization Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Weapon Specialization ~ Zen Archer|APPLIEDTO:Shortbow|TYPE:ClassFeatures.MonkClassFeatures.ZenArcherMonkWeaponChoice
+USERPOOL:Zen Archer Weapon Specialization Choice|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Bo Staff|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dan Bong]
+WEAPONPROF:[WEAPON:Double Chicken Saber|WEAPON:Emei Piercer|WEAPON:Fighting Fan|WEAPON:Flurry of Blows|WEAPON:Grapple|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Kama|WEAPON:Kama (Double-Chained)]
+WEAPONPROF:[WEAPON:Kusarigama (Sickle and Chain)|WEAPON:Kyoketsu Shoge|WEAPON:Longbow|WEAPON:Lungchuan Tamo|WEAPON:Monk's Spade|WEAPON:Nine-Section Whip|WEAPON:Nunchaku|WEAPON:Quarterstaff|WEAPON:Rope Dart|WEAPON:Sai]
+WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Shang Gou|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
+WEAPONPROF:[WEAPON:Splash Weapon|WEAPON:Sword (Seven-Branched)|WEAPON:Sword (Short)|WEAPON:Sword (Temple)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Temple Sword|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Unarmed Strike|WEAPON:Urumi]
+WEAPONPROF:[WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Arrow (Adamantine)|OUTPUTORDER:10|COST:60.05|WT:0.15|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow (Adamantine)$EQMOD=ADAMANT_AMMO]
+EQUIPNAME:Arrow (Alchemical Silver)|OUTPUTORDER:11|COST:2.05|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow (Alchemical Silver)$EQMOD=ALCHM]
+EQUIPNAME:Arrow (Blunt)|OUTPUTORDER:12|COST:0.1|WT:0.15|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Blunt)|DATA:NAME=Arrow (Blunt)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Arrow (Cold Iron)|OUTPUTORDER:13|COST:0.10|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow (Cold Iron)$EQMOD=C_IRON]
+EQUIPNAME:Arrow (Smoke)|OUTPUTORDER:14|COST:10.0|WT:0.15|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Smoke)|DATA:NAME=Arrow (Smoke)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Arrow (Whistling)|OUTPUTORDER:15|COST:0.10|WT:0.15|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Whistling)|DATA:NAME=Arrow (Whistling)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Arrow +1 (Bane (Humanoids (Human)))|OUTPUTORDER:17|COST:166.05|WT:0.15|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow +1 (Bane (Humanoids (Human)))$EQMOD=STEEL.WOOD.PLUS1M.BANE&pipe;Humanoids (Human)]
+EQUIPNAME:Arrows (20)|OUTPUTORDER:16|COST:1.0|WT:3.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrows (20)|DATA:NAME=Arrows (20)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Belt of Incredible Dexterity +2|OUTPUTORDER:8|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bracers of Falcon's Aim|OUTPUTORDER:4|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:7|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Composite Shortbow STR +1 (Adaptive/+5)|OUTPUTORDER:3|COST:3770.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Composite)|DATA:NAME=Composite Shortbow STR +1 (Adaptive/+5)$KEY=Shortbow +1 (Composite/Adaptive/+5)$EQMOD=BOWSTR&pipe;+5.PLUS1W.ADAPTIVE.DARK]
+EQUIPNAME:Efficient Quiver|OUTPUTORDER:9|COST:1800|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Headband of Inspired Wisdom +2|OUTPUTORDER:1|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Outfit (Monk's)|OUTPUTORDER:6|COST:0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Monk's)|DATA:NAME=Outfit (Monk's)$KEY=Outfit (Monk_s)$COSTMOD=-5]
+EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:18|COST:50|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Potion of Heroism|OUTPUTORDER:19|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Protection from Evil|OUTPUTORDER:20|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Quarterstaff (Greenwood;-)|OUTPUTORDER:23|COST:200.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Quarterstaff|DATA:NAME=Quarterstaff (Greenwood;-)$KEY=Quarterstaff (Greenwood_-)$EQMOD=GRNWD$ALTEQMOD=WOOD]
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:5|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Restoration (Lesser))|OUTPUTORDER:21|COST:150|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:22|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.01|VALUE:Composite Shortbow STR +1 (Adaptive/+5)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.02|VALUE:Outfit (Monk's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.03|VALUE:Efficient Quiver|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.01|VALUE:Arrow (Adamantine)|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.02|VALUE:Arrow (Alchemical Silver)|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.03|VALUE:Arrow (Blunt)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.04|VALUE:Arrow (Cold Iron)|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.05|VALUE:Arrow (Smoke)|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.06|VALUE:Arrow (Whistling)|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.07|VALUE:Arrows (20)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.03.08|VALUE:Arrow +1 (Bane (Humanoids (Human)))|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.05|VALUE:Cloak of Resistance +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Headband|ID:0.1.06|VALUE:Headband of Inspired Wisdom +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.07|VALUE:Belt of Incredible Dexterity +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Wrist|ID:0.1.08|VALUE:Bracers of Falcon's Aim|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.09|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.10|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Potion of Enlarge Person|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.12|VALUE:Potion of Heroism|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.13|VALUE:Potion of Protection from Evil|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.14|VALUE:Scroll (Restoration (Lesser))|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Wand of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.16|VALUE:Quarterstaff (Greenwood;-)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Deadly Aim|TBTARGET:Composite Shortbow STR +1 (Adaptive/+5)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;2*DEADLYAIMMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-DEADLYAIMMODIFIER&pipe;TYPE=TEMPORARY
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Irori|DEITYDOMAINS:[DOMAIN:Healing|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Rune|DOMAIN:Strength|DOMAIN:Inevitable Subdomain|DOMAIN:Language Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Thought Subdomain]|ALIGNALLOW:|DESC:God of history, knowledge, self-perfection|DEITYFAVWEAP:[WEAPON:Unarmed Strike]|DEITYALIGN:LN
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
