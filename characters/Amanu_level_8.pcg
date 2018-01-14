@@ -59,15 +59,16 @@ ALIGN:LN
 RACE:Vanara
 
 # Character Class(es)
-CLASS:Monk|LEVEL:8|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Monk|LEVEL:7|SKILLPOOL:-2|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Cleric|LEVEL:1|SKILLPOOL:2
 CLASSABILITIESLEVEL:Monk=1|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Monk=2|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Monk=3|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Monk=4|HITPOINTS:8|PRESTAT:WIS=1|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Monk=5|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Monk=6|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Monk=7|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Monk=8|HITPOINTS:8|PRESTAT:WIS=-1|PRESTAT:STR=5|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Monk=7|HITPOINTS:6|PRESTAT:WIS=-2|PRESTAT:STR=5|SKILLSGAINED:5|SKILLSREMAINING:-2
+CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|PRESTAT:WIS=1|SKILLSGAINED:3|SKILLSREMAINING:2
 
 # Character Experience
 EXPERIENCE:51000
@@ -92,7 +93,7 @@ SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
 SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Monk|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:10|
-SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
@@ -114,7 +115,7 @@ SKILL:Knowledge (Local)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Monk|RANKS:2.0|COST:1|
 SKILL:Knowledge (Nature)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Monk|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Monk|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
-SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Monk|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Monk|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:37|
 SKILL:Profession (Untrained)|OUTPUTORDER:38|
 SKILL:Ride|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -122,7 +123,7 @@ SKILL:Samurai Mount|OUTPUTORDER:40|
 SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
-SKILL:Stealth|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Monk|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Monk|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:47|
 SKILL:Swim|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Monk|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Untrained Charisma|OUTPUTORDER:49|
@@ -146,15 +147,21 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Blind-Fight|TYPE:Combat.AttackOption.DraconicBloodline.InfernalBloodline.DeepearthBloodline.DreamspunBloodline.ShadowBloodline.StarsoulBloodline.AccursedBloodline.DraconicBloodragerBloodline.InfernalBloodragerBloodline|DESC:You are skillled at attacking opponents that you cannot clearly perceive.
+ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Positive Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergySelection.ChannelEnergy.Channel Energy.Channel Energy Positive.Channel Positive Energy|DESC:You can unleash a wave of positive energy. You must choose to deal %1d%2 points of positive energy damage to undead creatures or to heal living creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelPositiveEnergyDice&pipe;ClericChannelPositiveEnergyDieSize&pipe;ClericChannelPositiveEnergyDC&pipe;ClericChannelEnergyTimes
+USERPOOL:Channel Energy|POOLPOINTS:0.0
+ABILITY:Domain Alternative ~ Inquisition|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Take Inquisition ~ Cleric|TYPE:AltClassInquisition.ClericInquisition
+USERPOOL:Domain Alternative ~ Inquisition|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Clustered Shots|TYPE:Combat|DESC:You take a moment to carefully aim your shots, causing them all to strike nearly the same spot.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Monkey Style|TYPE:Combat.Style|DESC:Your unarmed fighting style is nimble and unpredictable, full of ground rolls and short leaps.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat.ShadowBloodline.ArcaneBloodragerBloodline|DESC:You can draw weapons faster than most.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Monk|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics,Acrobatics|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Inquisition|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Inquisition ~ Conversion|TYPE:InquisitorDomain.Inquisition
+USERPOOL:Inquisition|POOLPOINTS:0.0
 ABILITY:Ki Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ki Power ~ Gaseous Form|TYPE:SpecialQuality.KiPower.SpellLike|DESC:Spend 1 ki point to use gaseous form (self-only) as a spell-like ability (caster level %1).&pipe;classlevel("Monk")
 USERPOOL:Ki Power|POOLPOINTS:0.0
 ABILITY:Monk Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Monk Archetype ~ Qinggong Monk Wholeness of Body|TYPE:Archetype.MonkArchetype.MonkWholenessOfBody|DESC:Swap Wholeness of Body for a ki power.
@@ -163,8 +170,10 @@ USERPOOL:Monk Archetype|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Friend in Every Town|APPLIEDTO:Knowledge (Local)|TYPE:Trait.BasicTrait.SocialTrait|DESC:You have no problem making friends and learning information from them wherever you go. You gain a +1 trait bonus on all Knowledge (local) checks and Diplomacy checks. One of these skills (your choice) is always a class skill for you.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Nature's Mimic|TYPE:Trait.BasicTrait.CombatTrait|DESC:Your knowledge of nature informs your fighting style, and that style gives you insight into related aspects of the natural world. You gain a +1 trait bonus on all Knowledge (nature) checks, and Knowledge (nature) is always a class skill for you. You can make Knowledge (nature) checks pertaining to animals that correspond to your style feats untrained.
 USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:Variant Channeling|TYPE:NORMAL|CATEGORY:Special Ability|KEY:1. Standard Channeling|TYPE:VariantChanneling
+USERPOOL:Variant Channeling|POOLPOINTS:0.0
 ABILITY:Zen Archer Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Monk ~ Improved Precise Shot|TYPE:ZenArcher.ZenArcherFeat
-ABILITY:Zen Archer Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Monk ~ Parting Shot|TYPE:ZenArcher.ZenArcherFeat
+ABILITY:Zen Archer Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Monk ~ Point-Blank Shot|TYPE:ZenArcher.ZenArcherFeat
 ABILITY:Zen Archer Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Monk ~ Precise Shot|TYPE:ZenArcher.ZenArcherFeat
 USERPOOL:Zen Archer Feat|POOLPOINTS:0.0
 ABILITY:Zen Archer Point Blank Master|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Zen Archer Point Blank Master|APPLIEDTO:CATEGORY=FEAT&pipe;Weapon Specialization&pipe;Shortbow|TYPE:|DESC:You are adept at firing ranged weapons in close quarters. Choose one type of ranged weapon. You do not provoke attacks of opportunity when firing the selected weapon while threatened.
@@ -175,15 +184,33 @@ ABILITY:Zen Archer Weapon Specialization Choice|TYPE:NORMAL|CATEGORY:Special Abi
 USERPOOL:Zen Archer Weapon Specialization Choice|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Bo Staff|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dan Bong]
-WEAPONPROF:[WEAPON:Double Chicken Saber|WEAPON:Emei Piercer|WEAPON:Fighting Fan|WEAPON:Flurry of Blows|WEAPON:Grapple|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Kama|WEAPON:Kama (Double-Chained)]
-WEAPONPROF:[WEAPON:Kusarigama (Sickle and Chain)|WEAPON:Kyoketsu Shoge|WEAPON:Longbow|WEAPON:Lungchuan Tamo|WEAPON:Monk's Spade|WEAPON:Nine-Section Whip|WEAPON:Nunchaku|WEAPON:Quarterstaff|WEAPON:Rope Dart|WEAPON:Sai]
-WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Shang Gou|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
-WEAPONPROF:[WEAPON:Splash Weapon|WEAPON:Sword (Seven-Branched)|WEAPON:Sword (Short)|WEAPON:Sword (Temple)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Temple Sword|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Unarmed Strike|WEAPON:Urumi]
-WEAPONPROF:[WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Aklys|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Orc Double)|WEAPON:Axe (Throwing)|WEAPON:Ballista (Gate Breaker)|WEAPON:Ballista (Heavy)|WEAPON:Ballista (Light)|WEAPON:Bardiche|WEAPON:Battle Aspergillum]
+WEAPONPROF:[WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Binding Contract|WEAPON:Blowgun|WEAPON:Blunderbuss|WEAPON:Bo Staff|WEAPON:Boar Spear|WEAPON:Bolas]
+WEAPONPROF:[WEAPON:Bomb|WEAPON:Bombard (Heavy)|WEAPON:Bombard (Light)|WEAPON:Bombard (Standard)|WEAPON:Boomerang|WEAPON:Brass Knuckles|WEAPON:Brawler's Flurry|WEAPON:Broadsword (Nine Ring)|WEAPON:Buckler Gun|WEAPON:Butterfly Sword]
+WEAPONPROF:[WEAPON:Cannon|WEAPON:Cannon (Fiend's Mouth)|WEAPON:Catapult (Heavy)|WEAPON:Catapult (Light)|WEAPON:Catapult (Standard)|WEAPON:Cestus|WEAPON:Chain (Spiked)|WEAPON:Chain Spear|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Double)|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Crossbow (Repeating Hand)|WEAPON:Crossbow (Repeating Heavy)|WEAPON:Crossbow (Repeating Light)|WEAPON:Culverin|WEAPON:Curve Blade (Elven)|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dagger (Swordbreaker)|WEAPON:Dan Bong|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Double Hackbut|WEAPON:Earth Breaker|WEAPON:Emei Piercer]
+WEAPONPROF:[WEAPON:Falcata|WEAPON:Falchion|WEAPON:Feathers|WEAPON:Fighting Fan|WEAPON:Fire Lance|WEAPON:Firearms|WEAPON:Firedrake|WEAPON:Firewyrm|WEAPON:Flail|WEAPON:Flail (Dire)]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Flurry of Blows|WEAPON:Flying Blade|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Hair|WEAPON:Halberd|WEAPON:Hammer (Gnome Hooked)|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Harpoon]
+WEAPONPROF:[WEAPON:Helmet (Dwarven Boulder)|WEAPON:Hooked Axe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Improvised Weapon|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Kama]
+WEAPONPROF:[WEAPON:Kama (Double-Chained)|WEAPON:Katana|WEAPON:Katana (Double Walking Stick)|WEAPON:Kerambit|WEAPON:Kestros|WEAPON:Khopesh|WEAPON:Klar|WEAPON:Knuckle Axe|WEAPON:Kukri|WEAPON:Kusarigama (Sickle and Chain)]
+WEAPONPROF:[WEAPON:Kyoketsu Shoge|WEAPON:Lance|WEAPON:Lasso|WEAPON:Longaxe (Dwarven)|WEAPON:Longbow|WEAPON:Longhammer (Dwarven)|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Madu|WEAPON:Mancatcher|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Meteor Hammer|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Musket]
+WEAPONPROF:[WEAPON:Musket (Axe)|WEAPON:Musket (Double-Barreled)|WEAPON:Musket (Warhammer)|WEAPON:Naginata|WEAPON:Net|WEAPON:Nine-Section Whip|WEAPON:Nodachi|WEAPON:Nunchaku|WEAPON:Ogre Hook|WEAPON:Pata]
+WEAPONPROF:[WEAPON:Pepperbox|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pistol|WEAPON:Pistol (Coat)|WEAPON:Pistol (Dagger)|WEAPON:Pistol (Double-Barreled)|WEAPON:Pistol (Dragon)|WEAPON:Pistol (Sword Cane)]
+WEAPONPROF:[WEAPON:Poisoned Sand Tube|WEAPON:Quadrens|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Revolver|WEAPON:Rhoka Sword|WEAPON:Rhomphaia|WEAPON:Rifle|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Rope Dart|WEAPON:Sai|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Sawtooth Sabre|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scorpion Whip|WEAPON:Scroll Blade|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shotel|WEAPON:Shotgun|WEAPON:Shuriken|WEAPON:Siangham|WEAPON:Sibat]
+WEAPONPROF:[WEAPON:Sica|WEAPON:Sickle|WEAPON:Sling|WEAPON:Sling Staff (Halfling)|WEAPON:Snag Net|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spear (Chain)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Springal (Arrow)|WEAPON:Springal (Rocket)|WEAPON:Stake|WEAPON:Star Candle Firework|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Seven-Branched)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Sword (Temple)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword (Two-Bladed)|WEAPON:Sword Cane|WEAPON:Swordbreaker (Dagger)|WEAPON:Taiaha|WEAPON:Tailblade (Ratfolk)|WEAPON:Tekko-Kagi (Iron Claw)|WEAPON:Temple Sword|WEAPON:Tepoztopilli]
+WEAPONPROF:[WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Terror Kite|WEAPON:Tetsubo|WEAPON:Throwing Shield|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trebuchet (Heavy)|WEAPON:Trebuchet (Light)|WEAPON:Trebuchet (Standard)]
+WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Urgrosh (Dwarven)|WEAPON:Urumi|WEAPON:Wahaika|WEAPON:Wakizashi|WEAPON:Waraxe (Dwarven Double)]
+WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Whip|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0.00
+MONEY:0
 EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Arrow (Adamantine)|OUTPUTORDER:11|COST:60.05|WT:0.15|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow (Adamantine)$EQMOD=ADAMANT_AMMO]
 EQUIPNAME:Arrow (Alchemical Silver)|OUTPUTORDER:12|COST:2.05|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow (Alchemical Silver)$EQMOD=ALCHM]
@@ -195,7 +222,7 @@ EQUIPNAME:Arrow +1 (Bane (Humanoids (Human)))|OUTPUTORDER:18|COST:166.05|WT:0.15
 EQUIPNAME:Arrows (20)|OUTPUTORDER:17|COST:1.0|WT:3.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrows (20)|DATA:NAME=Arrows (20)$EQMOD=STEEL.WOOD]
 EQUIPNAME:Belt of Incredible Dexterity +2|OUTPUTORDER:8|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bracers of Armor +2|OUTPUTORDER:5|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:7|COST:4000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:EQMOD=CLOTH]
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:7|COST:4000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +2|DATA:NAME=Cloak of Resistance +2$EQMOD=CLOTH]
 EQUIPNAME:Composite Shortbow STR +1 (Adaptive/+5)|OUTPUTORDER:3|COST:3770.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Composite)|DATA:NAME=Composite Shortbow STR +1 (Adaptive/+5)$KEY=Shortbow +1 (Composite/Adaptive/+5)$EQMOD=BOWSTR&pipe;+5.PLUS1W.ADAPTIVE.DARK]
 EQUIPNAME:Efficient Quiver|OUTPUTORDER:10|COST:1800|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Handy Haversack|OUTPUTORDER:24|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
@@ -211,7 +238,7 @@ EQUIPNAME:Ring of Protection +1|OUTPUTORDER:4|COST:2000|WT:0.0|QUANTITY:1.0|NOTE
 EQUIPNAME:Scroll (Restoration (Lesser))|OUTPUTORDER:22|COST:150|WT:0.01|QUANTITY:3.0|NOTE:
 EQUIPNAME:Temple Sword (Cold Iron)|OUTPUTORDER:28|COST:60.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Temple Sword|DATA:NAME=Temple Sword (Cold Iron)$EQMOD=Cold Iron]
 EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:23|COST:750.0|WT:0.0625|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
-EQUIPNAME:Wushu Dart (5)|OUTPUTORDER:27|COST:1.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wushu Dart (5)|DATA:EQMOD=MONK.WOOD]
+EQUIPNAME:Wushu Dart (5)|OUTPUTORDER:27|COST:1.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wushu Dart (5)|DATA:NAME=Wushu Dart (5)$EQMOD=MONK.WOOD]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Both Hands|ID:0.1.01|VALUE:Composite Shortbow STR +1 (Adaptive/+5)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.02|VALUE:Outfit (Monk's)|QUANTITY:1.0|USETEMPMODS:Y
@@ -249,7 +276,8 @@ TEMPBONUS:FEAT=Deadly Aim|TBTARGET:Composite Shortbow STR +1 (Adaptive/+5)|TBBON
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Irori|DEITYDOMAINS:[DOMAIN:Healing|DOMAIN:Knowledge|DOMAIN:Law|DOMAIN:Rune|DOMAIN:Strength|DOMAIN:Inevitable Subdomain|DOMAIN:Language Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Thought Subdomain]|ALIGNALLOW:|DESC:God of history, knowledge, self-perfection|DEITYFAVWEAP:[WEAPON:Unarmed Strike]|DEITYALIGN:LN
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Fear Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[WEAPON:ALL]|DEITYALIGN:
+DOMAIN:Travel|DOMAINGRANTS:You are an explorer and find enlightenment in the simple joy of travel, be it by foot or conveyance or magic. Increase your base speed by 10 feet.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
 
 # Character Spells Information
 
