@@ -1,8 +1,8 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG Core Supplements
-VERSION:6.07.06
+CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Hell's Rebels Houserules
+VERSION:6.07.08
 ROLLMETHOD:2|EXPRESSION:Epic Fantasy
 PURCHASEPOINTS:Y|TYPE:Epic Fantasy
 CHARACTERTYPE:PC
@@ -60,8 +60,8 @@ RACE:Human
 
 # Character Class(es)
 CLASS:Paladin|LEVEL:2|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:2000
@@ -85,51 +85,54 @@ SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
 SKILL:Climb|OUTPUTORDER:9|
-SKILL:Craft (Armor)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Craft (Blacksmithing)|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Craft (Untrained)|OUTPUTORDER:12|
-SKILL:Craft (Wood)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:15|
-SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:16|
-SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:17|
-SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:18|
-SKILL:Disguise|OUTPUTORDER:20|
-SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
-SKILL:Escape Artist|OUTPUTORDER:22|
-SKILL:Fly|OUTPUTORDER:23|
-SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
-SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
-SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
-SKILL:Heal|OUTPUTORDER:28|
-SKILL:Intimidate|OUTPUTORDER:29|
-SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
-SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
-SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
-SKILL:Knowledge (Religion)|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
-SKILL:Perception|OUTPUTORDER:35|
-SKILL:Perform (Untrained)|OUTPUTORDER:36|
-SKILL:Profession (Untrained)|OUTPUTORDER:37|
-SKILL:Ride|OUTPUTORDER:38|
-SKILL:Samurai Mount|OUTPUTORDER:39|
-SKILL:Sense Motive|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:41|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:42|
-SKILL:Stealth|OUTPUTORDER:45|
-SKILL:Survival|OUTPUTORDER:46|
-SKILL:Swim|OUTPUTORDER:47|
-SKILL:Untrained Charisma|OUTPUTORDER:48|
-SKILL:Untrained Dexterity|OUTPUTORDER:49|
-SKILL:Untrained Intelligence|OUTPUTORDER:50|
-SKILL:Untrained Strength|OUTPUTORDER:51|
-SKILL:Untrained Wisdom|OUTPUTORDER:52|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:43|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:44|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:53|
+SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:11|
+SKILL:Craft (Wood)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Escape Artist|OUTPUTORDER:21|
+SKILL:Fly|OUTPUTORDER:22|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:25|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:26|
+SKILL:Heal|OUTPUTORDER:27|
+SKILL:Intimidate|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:31|
+SKILL:Knowledge (Local)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
+SKILL:Perception|OUTPUTORDER:36|
+SKILL:Perform (Untrained)|OUTPUTORDER:37|
+SKILL:Profession (Innkeeper)|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:38|
+SKILL:Ride|OUTPUTORDER:39|
+SKILL:Samurai Mount|OUTPUTORDER:40|
+SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
+SKILL:Spellcraft|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:47|
+SKILL:Survival|OUTPUTORDER:48|
+SKILL:Swim|OUTPUTORDER:49|
+SKILL:Untrained Charisma|OUTPUTORDER:50|
+SKILL:Untrained Dexterity|OUTPUTORDER:51|
+SKILL:Untrained Intelligence|OUTPUTORDER:52|
+SKILL:Untrained Strength|OUTPUTORDER:53|
+SKILL:Untrained Wisdom|OUTPUTORDER:54|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:44|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:56|
+SKILL:Use Magic Device|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Infernal
@@ -138,6 +141,8 @@ LANGUAGE:Common|LANGUAGE:Infernal
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Infernal|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
@@ -149,8 +154,10 @@ ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Cla
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Eyes and Ears of the City|TYPE:Trait.ReligionTrait|DESC:Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on Perception checks, and Perception is always a class skill for you.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Merchant|TYPE:Trait.BasicTrait.SocialTrait|DESC:You lived your life as a merchant, buying and selling goods. You gain a +1 trait bonus on any Appraise and Sense Motive checks you attempt while bargaining for the price of goods. Appraise is always a class skill for you.
+ABILITY:Paladin Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Paladin Archetype ~ Oath of Labor|TYPE:Archetype.PaladinArchetype.PaladinMercy3|DESC:When you take this oath, you become a protector of labor, protecting the common people, their trade and their commerce.
+USERPOOL:Paladin Archetype|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Fed-Up Citizen|TYPE:Trait.BasicTrait.CampaignTrait|DESC:Kintargo is a tough place to live if you count yourself as a law-abiding citizen. While you likely agree with most others of Kintargo that many of the laws put in place by House Thrune seem excessive, you always respected the law and honored it as best you could. You likely worship a deity such as Abadar or Iomedae -a lawful neutral or perhaps lawful good power allowed to practice within Cheliax, but only under restrictions. Yet despite this, Thrune has always made Cheliax a safer place to live. But with recent events, enough is enough. As much as it pains you to admit, the law of the land is now manifestly and obviously not correct, and something must be done to oppose this misuse of power. You're good at hiding your true colors and faith to avoid attracting the wrong kind of attention. You gain a +1 bonus on Disguise checks, and Disguise is always a class skill for you. In addition, when someone uses detect good or detect law on you, your effective Hit Dice are 4 lower than their actual total when someone discerns the strength of your aura. If you are a cleric, paladin, or similar divine spellcaster, you treat yourself as if you were a standard- aligned creature rather than a divine spellcaster for these purposes. This means that until you become 9th level, you won't radiate an aura of good or law at all when someone casts one of these detection spells. Finally, your internal convictions that you're on the actual right of law help bolster your mindset, and you gain a +1 trait bonus on all saving throws against mind-affecting effects
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Life of Toil|TYPE:Trait.BasicTrait.SocialTrait|DESC:You have lived a physically taxing life, working long hours for a master or to support a trade. Hard physical labor has toughened your body and mind. You gain a +1 trait bonus on Fortitude saves.
 USERPOOL:Traits|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
@@ -168,21 +175,21 @@ WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:
 WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0.00
+MONEY:0
 EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:15|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Arrow|OUTPUTORDER:10|COST:0.05|WT:0.15|QUANTITY:37.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Arrow|OUTPUTORDER:10|COST:0.05|WT:0.15|QUANTITY:37.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
 EQUIPNAME:Artisan's Tools (Armor)|OUTPUTORDER:11|COST:5|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Artisan's Tools (Weaponsmithing)|OUTPUTORDER:12|COST:5|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Backpack|OUTPUTORDER:6|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Chainmail|OUTPUTORDER:4|COST:150.0|WT:40.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainmail|DATA:EQMOD=Material ~ Steel]
-EQUIPNAME:Dagger|OUTPUTORDER:13|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:EQMOD=Material ~ Steel]
+EQUIPNAME:Chainmail|OUTPUTORDER:4|COST:150.0|WT:40.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainmail|DATA:NAME=Chainmail$EQMOD=Material ~ Steel]
+EQUIPNAME:Dagger|OUTPUTORDER:13|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
 EQUIPNAME:Grappling Hook|OUTPUTORDER:9|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Longbow|OUTPUTORDER:14|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow|DATA:EQMOD=Material ~ Wood]
+EQUIPNAME:Longbow|OUTPUTORDER:14|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
 EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:1|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
 EQUIPNAME:Outfit (Artisan's)|OUTPUTORDER:3|COST:0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Artisan's)|DATA:NAME=Outfit (Artisan's)$KEY=Outfit (Artisan_s)$COSTMOD=-1]
 EQUIPNAME:Rope (Hemp/50 ft)|OUTPUTORDER:8|COST:1|WT:10.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Scroll (Cure Light Wounds)|OUTPUTORDER:5|COST:25|WT:0.01|QUANTITY:5.0|NOTE:
-EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:2|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:2|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
 EQUIPNAME:Torch|OUTPUTORDER:7|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.01|VALUE:Outfit (Artisan's)|QUANTITY:1.0|USETEMPMODS:Y
