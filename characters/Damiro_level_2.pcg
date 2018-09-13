@@ -110,29 +110,29 @@ SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|C
 SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
 SKILL:Perception|OUTPUTORDER:36|
 SKILL:Perform (Untrained)|OUTPUTORDER:37|
-SKILL:Profession (Innkeeper)|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Untrained)|OUTPUTORDER:38|
-SKILL:Ride|OUTPUTORDER:39|
-SKILL:Samurai Mount|OUTPUTORDER:40|
-SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
-SKILL:Spellcraft|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:47|
-SKILL:Survival|OUTPUTORDER:48|
-SKILL:Swim|OUTPUTORDER:49|
-SKILL:Untrained Charisma|OUTPUTORDER:50|
-SKILL:Untrained Dexterity|OUTPUTORDER:51|
-SKILL:Untrained Intelligence|OUTPUTORDER:52|
-SKILL:Untrained Strength|OUTPUTORDER:53|
-SKILL:Untrained Wisdom|OUTPUTORDER:54|
+SKILL:Profession (Innkeeper)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:39|
+SKILL:Ride|OUTPUTORDER:40|
+SKILL:Samurai Mount|OUTPUTORDER:41|
+SKILL:Sense Motive|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
+SKILL:Spellcraft|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:48|
+SKILL:Survival|OUTPUTORDER:49|
+SKILL:Swim|OUTPUTORDER:50|
+SKILL:Untrained Charisma|OUTPUTORDER:51|
+SKILL:Untrained Dexterity|OUTPUTORDER:52|
+SKILL:Untrained Intelligence|OUTPUTORDER:53|
+SKILL:Untrained Strength|OUTPUTORDER:54|
+SKILL:Untrained Wisdom|OUTPUTORDER:55|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:44|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:45|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:46|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:56|
-SKILL:Use Magic Device|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Infernal
@@ -175,38 +175,34 @@ WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:
 WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:15|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Arrow|OUTPUTORDER:10|COST:0.05|WT:0.15|QUANTITY:37.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Artisan's Tools (Armor)|OUTPUTORDER:11|COST:5|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Artisan's Tools (Weaponsmithing)|OUTPUTORDER:12|COST:5|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Backpack|OUTPUTORDER:6|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Chainmail|OUTPUTORDER:4|COST:150.0|WT:40.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainmail|DATA:NAME=Chainmail$EQMOD=Material ~ Steel]
-EQUIPNAME:Dagger|OUTPUTORDER:13|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
-EQUIPNAME:Grappling Hook|OUTPUTORDER:9|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Longbow|OUTPUTORDER:14|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
+MONEY:0.00
+EQUIPNAME:Arrow|OUTPUTORDER:13|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:4|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battleaxe|OUTPUTORDER:14|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe|DATA:EQMOD=Material ~ Steel]
+EQUIPNAME:Chainmail|OUTPUTORDER:3|COST:150.0|WT:40.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainmail|DATA:EQMOD=Material ~ Steel]
+EQUIPNAME:Dagger|OUTPUTORDER:11|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:EQMOD=Material ~ Steel]
+EQUIPNAME:Longbow|OUTPUTORDER:12|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow|DATA:EQMOD=Material ~ Wood]
 EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:1|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
-EQUIPNAME:Outfit (Artisan's)|OUTPUTORDER:3|COST:0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Artisan's)|DATA:NAME=Outfit (Artisan's)$KEY=Outfit (Artisan_s)$COSTMOD=-1]
-EQUIPNAME:Rope (Hemp/50 ft)|OUTPUTORDER:8|COST:1|WT:10.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll (Cure Light Wounds)|OUTPUTORDER:5|COST:25|WT:0.01|QUANTITY:5.0|NOTE:
-EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:2|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
+EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:10|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Cure Light Wounds)|OUTPUTORDER:5|COST:25|WT:0.01|QUANTITY:4.0|NOTE:
+EQUIPNAME:Scroll (Identify)|OUTPUTORDER:9|COST:25|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Protection from Evil/Divine)|OUTPUTORDER:6|COST:25|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:2|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
 EQUIPNAME:Torch|OUTPUTORDER:7|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Torso|ID:0.1.01|VALUE:Outfit (Artisan's)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.02|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Armor|ID:0.1.03|VALUE:Chainmail|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.02|VALUE:Chainmail|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.04|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.05|VALUE:Scroll (Cure Light Wounds)|QUANTITY:5.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.06|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack|ID:0.1.06.01|VALUE:Torch|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Backpack|ID:0.1.06.02|VALUE:Rope (Hemp/50 ft)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack|ID:0.1.06.03|VALUE:Grappling Hook|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack|ID:0.1.06.04|VALUE:Arrow|QUANTITY:37.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.07|VALUE:Artisan's Tools (Armor)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.08|VALUE:Artisan's Tools (Weaponsmithing)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.09|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.10|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.11|VALUE:Alchemist's Fire (Flask)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.05|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Longbow|ID:0.1.06.01|VALUE:Arrow|QUANTITY:50.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.07|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Masterwork)|ID:0.1.07.01|VALUE:Scroll (Cure Light Wounds)|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Masterwork)|ID:0.1.07.02|VALUE:Scroll (Protection from Evil/Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Masterwork)|ID:0.1.07.03|VALUE:Torch|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.08|VALUE:Battleaxe|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Scroll (Identify)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Potion of Enlarge Person|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -215,7 +211,7 @@ TEMPBONUS:FEAT=Power Attack (One-Handed)|TBTARGET:Masterwork Warhammer|TBBONUS:W
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Abadar|DEITYDOMAINS:[DOMAIN:Earth|DOMAIN:Law|DOMAIN:Nobility|DOMAIN:Protection|DOMAIN:Travel|DOMAIN:Defense Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Leadership Subdomain|DOMAIN:Martyr Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Trade Subdomain]|ALIGNALLOW:|DESC:God of cities, wealth, merchants, law|DEITYFAVWEAP:[WEAPON:Crossbow (Light)]|DEITYALIGN:LN
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Fear Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
 
 # Character Spells Information
 SPELLBOOK:Class|TYPE:4
