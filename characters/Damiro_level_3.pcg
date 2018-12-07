@@ -87,10 +87,10 @@ SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
 SKILL:Climb|OUTPUTORDER:9|
-SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Craft (Untrained)|OUTPUTORDER:11|
-SKILL:Craft (Wood)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Wood)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:N]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
@@ -100,44 +100,44 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
 SKILL:Escape Artist|OUTPUTORDER:21|
 SKILL:Fly|OUTPUTORDER:22|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
-SKILL:Handle Animal|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:25|
-SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:26|
-SKILL:Heal|OUTPUTORDER:27|
-SKILL:Intimidate|OUTPUTORDER:28|
-SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:29|
-SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:30|
-SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:31|
-SKILL:Knowledge (Local)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Nobility)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:35|
-SKILL:Perception|OUTPUTORDER:37|
-SKILL:Perform (Untrained)|OUTPUTORDER:38|
-SKILL:Profession (Cook)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Innkeeper)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Untrained)|OUTPUTORDER:41|
-SKILL:Ride|OUTPUTORDER:42|
-SKILL:Samurai Mount|OUTPUTORDER:43|
-SKILL:Sense Motive|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
-SKILL:Spellcraft|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:50|
-SKILL:Survival|OUTPUTORDER:51|
-SKILL:Swim|OUTPUTORDER:52|
-SKILL:Untrained Charisma|OUTPUTORDER:53|
-SKILL:Untrained Dexterity|OUTPUTORDER:54|
-SKILL:Untrained Intelligence|OUTPUTORDER:55|
-SKILL:Untrained Strength|OUTPUTORDER:56|
-SKILL:Untrained Wisdom|OUTPUTORDER:57|
+SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|
+SKILL:Intimidate|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
+SKILL:Knowledge (Local)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
+SKILL:Perception|OUTPUTORDER:38|
+SKILL:Perform (Untrained)|OUTPUTORDER:39|
+SKILL:Profession (Cook)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Profession (Innkeeper)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Profession (Untrained)|OUTPUTORDER:42|
+SKILL:Ride|OUTPUTORDER:43|
+SKILL:Samurai Mount|OUTPUTORDER:44|
+SKILL:Sense Motive|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:46|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:47|
+SKILL:Spellcraft|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Stealth|OUTPUTORDER:51|
+SKILL:Survival|OUTPUTORDER:52|
+SKILL:Swim|OUTPUTORDER:53|
+SKILL:Untrained Charisma|OUTPUTORDER:54|
+SKILL:Untrained Dexterity|OUTPUTORDER:55|
+SKILL:Untrained Intelligence|OUTPUTORDER:56|
+SKILL:Untrained Strength|OUTPUTORDER:57|
+SKILL:Untrained Wisdom|OUTPUTORDER:58|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:36|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
-SKILL:Use Magic Device|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:50|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:60|
+SKILL:Use Magic Device|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Infernal
@@ -162,9 +162,7 @@ ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ No
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
-ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Fatigued|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer fatigued.
-USERPOOL:Mercy|POOLPOINTS:0.0
-ABILITY:Paladin Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Paladin Archetype ~ Oath of Labor|TYPE:Archetype.PaladinArchetype.PaladinMercy3|DESC:When you take this oath, you become a protector of labor, protecting the common people, their trade and their commerce.
+ABILITY:Paladin Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Paladin Archetype ~ Oath of Labor|TYPE:Archetype.PaladinArchetype|DESC:When you take this oath, you become a protector of labor, protecting the common people, their trade and their commerce.
 USERPOOL:Paladin Archetype|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
 USERPOOL:Region of Origin|POOLPOINTS:0.0
