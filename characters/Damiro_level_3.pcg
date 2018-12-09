@@ -158,6 +158,8 @@ ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:Favo
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perception,Perception,Perception|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 02|APPLIEDTO:Appraise|TYPE:GM_Award.SpecialQuality|DESC:Training&colon; At rank 2, then again at ranks 7, 12, and 17, each PC gains a bonus skill rank that can be immediately applied to any skill. This represents training the PC has gained through association with the increasing number of skilled workers and rebels who have joined the cause. This bonus skill rank can be applied to any skill, as if it were a bonus rank gained by earning a level in a favored class. It stacks with all other sources of skill ranks, but a character's maximum rank in any skill remains unchanged; the PC can never have more ranks in any one skill than he or she has Hit Dice. Subsequent training bonuses can be applied to the same skill or a different skill, as the PC wishes.
+USERPOOL:GM Awards|POOLPOINTS:0.0
 ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
@@ -185,7 +187,7 @@ WEAPONPROF:[WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (S
 WEAPONPROF:[WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
+MONEY:0.00
 EQUIPNAME:Arrow|OUTPUTORDER:13|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
 EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:4|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Battleaxe|OUTPUTORDER:14|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
@@ -193,6 +195,7 @@ EQUIPNAME:Chainmail|OUTPUTORDER:3|COST:150.0|WT:40.0|QUANTITY:1.0|NOTE:|CUSTOMIZ
 EQUIPNAME:Dagger|OUTPUTORDER:11|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
 EQUIPNAME:Longbow|OUTPUTORDER:12|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
 EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:1|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Potion of Darkvision|OUTPUTORDER:0|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
 EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:10|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:5|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Scroll of Identify|OUTPUTORDER:9|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
