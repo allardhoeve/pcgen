@@ -49,7 +49,7 @@ CATCHPHRASE:
 PORTRAIT:
 
 # Character Attributes
-STAT:STR|SCORE:17
+STAT:STR|SCORE:18
 STAT:DEX|SCORE:12
 STAT:CON|SCORE:12
 STAT:INT|SCORE:13
@@ -59,13 +59,14 @@ ALIGN:LG
 RACE:Human
 
 # Character Class(es)
-CLASS:Paladin|LEVEL:3|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:
+CLASS:Paladin|LEVEL:4|SKILLPOOL:0
 CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:8|PRESTAT:CON=-2|PRESTAT:STR=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:8|PRESTAT:STR=1|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:8999
+EXPERIENCE:9000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -80,7 +81,7 @@ REGION:None
 # Character Skills
 SKILL:Acrobatics|OUTPUTORDER:1|
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
-SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Bluff|OUTPUTORDER:4|
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
@@ -90,7 +91,7 @@ SKILL:Climb|OUTPUTORDER:9|
 SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:11|
 SKILL:Craft (Wood)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
@@ -110,34 +111,35 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Knowledge (Local)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
 SKILL:Perception|OUTPUTORDER:38|
 SKILL:Perform (Untrained)|OUTPUTORDER:39|
 SKILL:Profession (Cook)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Profession (Innkeeper)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Untrained)|OUTPUTORDER:42|
-SKILL:Ride|OUTPUTORDER:43|
-SKILL:Samurai Mount|OUTPUTORDER:44|
-SKILL:Sense Motive|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:46|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:47|
-SKILL:Spellcraft|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:51|
-SKILL:Survival|OUTPUTORDER:52|
-SKILL:Swim|OUTPUTORDER:53|
-SKILL:Untrained Charisma|OUTPUTORDER:54|
-SKILL:Untrained Dexterity|OUTPUTORDER:55|
-SKILL:Untrained Intelligence|OUTPUTORDER:56|
-SKILL:Untrained Strength|OUTPUTORDER:57|
-SKILL:Untrained Wisdom|OUTPUTORDER:58|
+SKILL:Profession (Soldier)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Sense Motive|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:48|
+SKILL:Spellcraft|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:52|
+SKILL:Survival|OUTPUTORDER:53|
+SKILL:Swim|OUTPUTORDER:54|
+SKILL:Untrained Charisma|OUTPUTORDER:55|
+SKILL:Untrained Dexterity|OUTPUTORDER:56|
+SKILL:Untrained Intelligence|OUTPUTORDER:57|
+SKILL:Untrained Strength|OUTPUTORDER:58|
+SKILL:Untrained Wisdom|OUTPUTORDER:59|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:50|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:60|
-SKILL:Use Magic Device|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:49|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+SKILL:Use Magic Device|OUTPUTORDER:60|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Infernal
@@ -156,7 +158,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Step Up|TYPE:Combat|DESC:You can clos
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perception,Perception,Perception|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perception,Perception,Perception,Perception|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 02|APPLIEDTO:Appraise|TYPE:GM_Award.SpecialQuality|DESC:Training&colon; At rank 2, then again at ranks 7, 12, and 17, each PC gains a bonus skill rank that can be immediately applied to any skill. This represents training the PC has gained through association with the increasing number of skilled workers and rebels who have joined the cause. This bonus skill rank can be applied to any skill, as if it were a bonus rank gained by earning a level in a favored class. It stacks with all other sources of skill ranks, but a character's maximum rank in any skill remains unchanged; the PC can never have more ranks in any one skill than he or she has Hit Dice. Subsequent training bonuses can be applied to the same skill or a different skill, as the PC wishes.
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 03|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
@@ -189,26 +191,25 @@ WEAPONPROF:[WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (S
 WEAPONPROF:[WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:+1 Breastplate|OUTPUTORDER:3|COST:1350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=+1 Breastplate$KEY=+1 Breastplate (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Armor]
-EQUIPNAME:Arrow|OUTPUTORDER:14|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:11|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
-EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:4|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Battleaxe|OUTPUTORDER:15|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
-EQUIPNAME:Dagger|OUTPUTORDER:12|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
-EQUIPNAME:Longbow|OUTPUTORDER:13|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
-EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:1|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
-EQUIPNAME:Potion of Darkvision|OUTPUTORDER:8|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:NAME=Potion of Darkvision$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:6|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:10|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Identify|OUTPUTORDER:7|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:9|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:2|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
-EQUIPNAME:Silver/Masterwork Morningstar|OUTPUTORDER:16|COST:398.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Morningstar (Base)|DATA:NAME=Silver/Masterwork Morningstar$KEY=Silver/Masterwork Morningstar (Base)$EQMOD=Material ~ Alchemical Silver.Special Quality ~ Masterwork ~ Weapon]
-EQUIPNAME:Torch|OUTPUTORDER:5|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
+MONEY:0.00
+EQUIPNAME:+1 Breastplate|OUTPUTORDER:2|COST:1350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=+1 Breastplate$KEY=+1 Breastplate (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Armor]
+EQUIPNAME:Arrow|OUTPUTORDER:13|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:10|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:3|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battleaxe|OUTPUTORDER:14|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
+EQUIPNAME:Dagger|OUTPUTORDER:11|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
+EQUIPNAME:Longbow|OUTPUTORDER:12|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
+EQUIPNAME:Masterwork Falchion|OUTPUTORDER:1|COST:375.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion (Base)|DATA:NAME=Masterwork Falchion$KEY=Masterwork Falchion (Base)$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:15|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Potion of Darkvision|OUTPUTORDER:7|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:NAME=Potion of Darkvision$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:5|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:9|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Identify|OUTPUTORDER:6|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:8|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:16|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
+EQUIPNAME:Silver Warhammer|OUTPUTORDER:17|COST:102.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Silver Warhammer$KEY=Silver Warhammer (Base)$EQMOD=Material ~ Alchemical Silver]
+EQUIPNAME:Torch|OUTPUTORDER:4|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Secondary Hand|ID:0.1.04|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.05|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.06|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Longbow|ID:0.1.06.01|VALUE:Arrow|QUANTITY:50.0|USETEMPMODS:Y
@@ -221,12 +222,16 @@ EQUIPSET:Equipped|ID:0.1.12|VALUE:Scroll of Identify|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.13|VALUE:Potion of Darkvision|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.14|VALUE:Scroll of Protection from Evil (Divine)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.15|VALUE:Scroll of Cure Light Wounds|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.16|VALUE:Silver/Masterwork Morningstar|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.17|VALUE:Artisan's Tools, Masterwork|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.19|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.20|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.21|VALUE:Masterwork Falchion|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:Silver Warhammer|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:FEAT=Power Attack (One-Handed)|TBTARGET:Masterwork Warhammer|TBBONUS:WEAPON&pipe;DAMAGE&pipe;POWERATTACKDAMAGEBASE*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Masterwork Falchion|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+TEMPBONUS:FEAT=Power Attack (One-Handed)|TBTARGET:Masterwork Warhammer|TBBONUS:WEAPON&pipe;DAMAGE&pipe;POWERATTACKDAMAGEBASE*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
 
 # EquipSet Temp Bonuses
 
