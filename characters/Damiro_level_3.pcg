@@ -189,26 +189,24 @@ WEAPONPROF:[WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (S
 WEAPONPROF:[WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:+1 Breastplate|OUTPUTORDER:3|COST:1350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=+1 Breastplate$KEY=+1 Breastplate (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Armor]
-EQUIPNAME:Arrow|OUTPUTORDER:14|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:11|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
-EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:4|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Battleaxe|OUTPUTORDER:15|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
-EQUIPNAME:Dagger|OUTPUTORDER:12|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
-EQUIPNAME:Longbow|OUTPUTORDER:13|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
-EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:1|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
-EQUIPNAME:Potion of Darkvision|OUTPUTORDER:8|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:NAME=Potion of Darkvision$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:6|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:10|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Identify|OUTPUTORDER:7|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:9|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:2|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
-EQUIPNAME:Silver/Masterwork Morningstar|OUTPUTORDER:16|COST:398.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Morningstar (Base)|DATA:NAME=Silver/Masterwork Morningstar$KEY=Silver/Masterwork Morningstar (Base)$EQMOD=Material ~ Alchemical Silver.Special Quality ~ Masterwork ~ Weapon]
-EQUIPNAME:Torch|OUTPUTORDER:5|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
+MONEY:0.00
+EQUIPNAME:+1 Breastplate|OUTPUTORDER:2|COST:1350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=+1 Breastplate$KEY=+1 Breastplate (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Armor]
+EQUIPNAME:Arrow|OUTPUTORDER:13|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:10|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:3|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battleaxe|OUTPUTORDER:14|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
+EQUIPNAME:Dagger|OUTPUTORDER:11|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
+EQUIPNAME:Longbow|OUTPUTORDER:12|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
+EQUIPNAME:Masterwork Falchion|OUTPUTORDER:1|COST:375.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion (Base)|DATA:NAME=Masterwork Falchion$KEY=Masterwork Falchion (Base)$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:15|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Potion of Darkvision|OUTPUTORDER:7|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:NAME=Potion of Darkvision$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:5|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:9|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Identify|OUTPUTORDER:6|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:8|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:16|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
+EQUIPNAME:Torch|OUTPUTORDER:4|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Secondary Hand|ID:0.1.04|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.05|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.06|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Longbow|ID:0.1.06.01|VALUE:Arrow|QUANTITY:50.0|USETEMPMODS:Y
@@ -221,11 +219,14 @@ EQUIPSET:Equipped|ID:0.1.12|VALUE:Scroll of Identify|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.13|VALUE:Potion of Darkvision|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.14|VALUE:Scroll of Protection from Evil (Divine)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.15|VALUE:Scroll of Cure Light Wounds|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.16|VALUE:Silver/Masterwork Morningstar|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.17|VALUE:Artisan's Tools, Masterwork|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.18|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.19|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.20|VALUE:Masterwork Falchion|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
+TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Masterwork Falchion|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
 TEMPBONUS:FEAT=Power Attack (One-Handed)|TBTARGET:Masterwork Warhammer|TBBONUS:WEAPON&pipe;DAMAGE&pipe;POWERATTACKDAMAGEBASE*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
 
 # EquipSet Temp Bonuses
