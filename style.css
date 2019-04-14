@@ -1,0 +1,31 @@
+
+body {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+#header {
+    height: 200px;
+    background-color: #7C8F99;
+}
+
+#header h1 {
+    padding-left: 50px;
+    padding-top: 80px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: #444;
+    text-decoration: underline;
+}
+
+#content {
+    padding-left: 30px;
+    padding-top: 30px;
+}
