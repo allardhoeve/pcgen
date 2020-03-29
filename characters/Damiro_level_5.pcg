@@ -1,8 +1,8 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Hell's Rebels Houserules|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:PF - Hell's Rebels Player's Guide
-VERSION:6.08.00 RC4
+CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Hell's Rebels Houserules
+VERSION:6.08.00 RC8
 ROLLMETHOD:2|EXPRESSION:Epic Fantasy
 PURCHASEPOINTS:Y|TYPE:Epic Fantasy
 CHARACTERTYPE:PC
@@ -102,7 +102,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
 SKILL:Escape Artist|OUTPUTORDER:21|
 SKILL:Fly|OUTPUTORDER:22|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
-SKILL:Handle Animal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
 SKILL:Heal|OUTPUTORDER:28|
@@ -136,7 +136,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:58|
 SKILL:Untrained Strength|OUTPUTORDER:59|
 SKILL:Untrained Wisdom|OUTPUTORDER:60|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
@@ -158,7 +158,7 @@ ABILITY:Divine Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divine Bond ~ Celes
 USERPOOL:Divine Bond|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fey Foundling|TYPE:General|DESC:You were found in the wilds as a child, bearing a mark of the First World. Magical healing works better on you.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Furious Focus|TYPE:Combat|DESC:Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.SaurianShamanBonus|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Step Up|TYPE:Combat|DESC:You can close the distance when a foe tries to move away.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
