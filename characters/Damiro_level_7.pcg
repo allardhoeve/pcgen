@@ -1,0 +1,285 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Hell's Rebels Houserules
+VERSION:6.08.00 RC8
+ROLLMETHOD:2|EXPRESSION:Epic Fantasy
+PURCHASEPOINTS:Y|TYPE:Epic Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:25
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Damiro
+TABNAME:Damiro
+PLAYERNAME:Allard
+HEIGHT:72
+WEIGHT:190
+AGE:31
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:18
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:12
+STAT:INT|SCORE:13
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:14
+ALIGN:LG
+RACE:Human
+
+# Character Class(es)
+CLASS:Paladin|LEVEL:7|SKILLPOOL:0
+CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:10|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:8|PRESTAT:CON=-2|PRESTAT:STR=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:8|PRESTAT:STR=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=5|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=6|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=7|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:35000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|
+SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:11|
+SKILL:Craft (Wood)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Escape Artist|OUTPUTORDER:21|
+SKILL:Fly|OUTPUTORDER:22|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
+SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
+SKILL:Knowledge (Local)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
+SKILL:Linguistics|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial
+SKILL:Perception|OUTPUTORDER:39|
+SKILL:Perform (Untrained)|OUTPUTORDER:40|
+SKILL:Profession (Cook)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Farmer)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Innkeeper)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Merchant)|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Porter)|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Soldier)|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:46|
+SKILL:Ride|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:48|
+SKILL:Sense Motive|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Paladin|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:50|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:51|
+SKILL:Spellcraft|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:55|
+SKILL:Survival|OUTPUTORDER:56|
+SKILL:Swim|OUTPUTORDER:57|
+SKILL:Untrained Charisma|OUTPUTORDER:58|
+SKILL:Untrained Dexterity|OUTPUTORDER:59|
+SKILL:Untrained Intelligence|OUTPUTORDER:60|
+SKILL:Untrained Strength|OUTPUTORDER:61|
+SKILL:Untrained Wisdom|OUTPUTORDER:62|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:52|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:54|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:64|
+SKILL:Use Magic Device|OUTPUTORDER:63|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Infernal
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Infernal|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Divine Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divine Bond ~ Celestial Spirit|TYPE:PaladinClassFeatures.SpecialQuality.SpellLike.DivineBond.Divine Bond|DESC:Your divine bond allows you to enhance your weapon as a standard action by calling upon the aid of a celestial spirit for %1 minutes. When called, the spirit causes the weapon to shed light as a torch. This spirit grants the weapon a +%2 enhancement bonus. This bonus can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or it can be used to add any of the following weapon properties&colon; defending, flaming, keen, merciful (+1), axiomatic, disruption, flaming burst, holy (+2), speed (+3), and brilliant energy (+4). Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the weapon is held by anyone other than you but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon. You can use this ability %3 times per day. If a weapon bonded with a celestial spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;CelestialSpiritDuration&pipe;CelestialSpiritBonus&pipe;DivineBondTimes
+USERPOOL:Divine Bond|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fey Foundling|TYPE:General|DESC:You were found in the wilds as a child, bearing a mark of the First World. Magical healing works better on you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Furious Focus|TYPE:Combat|DESC:Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Leadership|TYPE:General|DESC:You attract followers to your cause and a companion to join you on your adventure.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.SaurianShamanBonus|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Step Up|TYPE:Combat|DESC:You can close the distance when a foe tries to move away.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perception,Perception,Perception,Perception,Perception,Perception,Perception|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 02|APPLIEDTO:Appraise|TYPE:GM_Award.SpecialQuality|DESC:Training&colon; At rank 2, then again at ranks 7, 12, and 17, each PC gains a bonus skill rank that can be immediately applied to any skill. This represents training the PC has gained through association with the increasing number of skilled workers and rebels who have joined the cause. This bonus skill rank can be applied to any skill, as if it were a bonus rank gained by earning a level in a favored class. It stacks with all other sources of skill ranks, but a character's maximum rank in any skill remains unchanged; the PC can never have more ranks in any one skill than he or she has Hit Dice. Subsequent training bonuses can be applied to the same skill or a different skill, as the PC wishes.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 03|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 04|APPLIEDTO:CATEGORY=FEAT&pipe;Deceitful|TYPE:GM_Award.SpecialQuality|DESC:Title&colon; At rank 4, then again at ranks 9, 14, and 19, the PCs earn a title as befits their growing power in the rebellion. While the title itself is largely just an honorific, it also coincides with the acquisition of a bonus feat or other benefit each PC has earned through a combination of training with rebellion members and self-confidence gained from the rebellion's growing strength. With the title of Guardian at rank 4, each PC gains one of the following as a bonus feat&colon; Alertness, Deceitful, Persuasive, or Stealthy.
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Diseased|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the ability also acts as Remove Disease with a caster level of %1.&pipe;MercyLVL
+USERPOOL:Mercy|POOLPOINTS:0.0
+ABILITY:Paladin Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Paladin Archetype ~ Oath of Labor|TYPE:Archetype.PaladinArchetype|DESC:When you take this oath, you become a protector of labor, protecting the common people, their trade and their commerce.
+USERPOOL:Paladin Archetype|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Fed-Up Citizen|TYPE:Trait.BasicTrait.CampaignTrait|DESC:Kintargo is a tough place to live if you count yourself as a law-abiding citizen. While you likely agree with most others of Kintargo that many of the laws put in place by House Thrune seem excessive, you always respected the law and honored it as best you could. You likely worship a deity such as Abadar or Iomedae -a lawful neutral or perhaps lawful good power allowed to practice within Cheliax, but only under restrictions. Yet despite this, Thrune has always made Cheliax a safer place to live. But with recent events, enough is enough. As much as it pains you to admit, the law of the land is now manifestly and obviously not correct, and something must be done to oppose this misuse of power. You're good at hiding your true colors and faith to avoid attracting the wrong kind of attention. You gain a +1 bonus on Disguise checks, and Disguise is always a class skill for you. In addition, when someone uses detect good or detect law on you, your effective Hit Dice are 4 lower than their actual total when someone discerns the strength of your aura. If you are a cleric, paladin, or similar divine spellcaster, you treat yourself as if you were a standard- aligned creature rather than a divine spellcaster for these purposes. This means that until you become 9th level, you won't radiate an aura of good or law at all when someone casts one of these detection spells. Finally, your internal convictions that you're on the actual right of law help bolster your mindset, and you gain a +1 trait bonus on all saving throws against mind-affecting effects
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Paladin|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill]
+WEAPONPROF:[WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)]
+WEAPONPROF:[WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte]
+WEAPONPROF:[WEAPON:Kasatha Spinal Sword|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer]
+WEAPONPROF:[WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook]
+WEAPONPROF:[WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pliers (Tooth Fairy)|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sibat|WEAPON:Sickle|WEAPON:Skull|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon]
+WEAPONPROF:[WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork]
+WEAPONPROF:[WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:+1 Breastplate|OUTPUTORDER:3|COST:1350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=+1 Breastplate$KEY=+1 Breastplate (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Armor]
+EQUIPNAME:+1/Frost Falchion|OUTPUTORDER:2|COST:8375.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion (Base)|DATA:NAME=+1/Frost Falchion$KEY=+1/Frost Falchion (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon.Special Ability ~ Frost ~ Weapon]
+EQUIPNAME:Arrow|OUTPUTORDER:15|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:12|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:5|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battleaxe|OUTPUTORDER:16|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
+EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:4|COST:1000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +1|DATA:NAME=Cloak of Resistance +1$EQMOD=Material ~ Cloth]
+EQUIPNAME:Dagger|OUTPUTORDER:13|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
+EQUIPNAME:Longbow|OUTPUTORDER:14|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
+EQUIPNAME:Masterwork Falchion|OUTPUTORDER:1|COST:375.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion (Base)|DATA:NAME=Masterwork Falchion$KEY=Masterwork Falchion (Base)$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:17|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Potion of Darkvision|OUTPUTORDER:9|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:NAME=Potion of Darkvision$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:7|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Ring of Protection +2|OUTPUTORDER:1|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:11|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Identify|OUTPUTORDER:8|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:10|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:18|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
+EQUIPNAME:Silver Warhammer|OUTPUTORDER:19|COST:102.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Silver Warhammer$KEY=Silver Warhammer (Base)$EQMOD=Material ~ Alchemical Silver]
+EQUIPNAME:Sting|OUTPUTORDER:20|COST:2310.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Sting$EQMOD=Special Ability ~ +1 ~ Weapon$SPROP=silver, (+1 Short Sword)]
+EQUIPNAME:Torch|OUTPUTORDER:6|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.05|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Longbow|ID:0.1.06.01|VALUE:Arrow|QUANTITY:50.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.07|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Masterwork)|ID:0.1.07.03|VALUE:Torch|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.08|VALUE:Battleaxe|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Potion of Enlarge Person|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.11|VALUE:+1 Breastplate|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.12|VALUE:Scroll of Identify|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.13|VALUE:Potion of Darkvision|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.14|VALUE:Scroll of Protection from Evil (Divine)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Scroll of Cure Light Wounds|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.17|VALUE:Artisan's Tools, Masterwork|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.19|VALUE:Masterwork Warhammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.20|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:Silver Warhammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.24|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.25|VALUE:Sting|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.26|VALUE:Ring of Protection +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.27|VALUE:+1/Frost Falchion|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Furious Focus (Two-Handed)|TBTARGET:+1/Frost Falchion|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+TEMPBONUS:FEAT=Furious Focus (One-Handed)|TBTARGET:Masterwork Warhammer|TBBONUS:WEAPON&pipe;DAMAGE&pipe;POWERATTACKDAMAGEBASE*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Battle (Spirit)|DOMAIN:Blood Subdomain|DOMAIN:Bones (Spirit)|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Construct Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Fear Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Flame (Spirit)|DOMAIN:Freedom Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heavens (Spirit)|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Liberation|DOMAIN:Life (Spirit)|DOMAIN:Light Subdomain|DOMAIN:Lore (Spirit)|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Nature (Spirit)|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Stone (Spirit)|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Undead Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Waves (Spirit)|DOMAIN:Weather|DOMAIN:Wind (Spirit)|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
