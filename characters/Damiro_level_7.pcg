@@ -104,7 +104,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
 SKILL:Escape Artist|OUTPUTORDER:21|
 SKILL:Fly|OUTPUTORDER:22|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
-SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
 SKILL:Heal|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -116,7 +116,7 @@ SKILL:Knowledge (Local)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST
 SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
-SKILL:Linguistics|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial
+SKILL:Linguistics|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial
 SKILL:Perception|OUTPUTORDER:39|
 SKILL:Perform (Untrained)|OUTPUTORDER:40|
 SKILL:Profession (Cook)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -141,12 +141,12 @@ SKILL:Untrained Intelligence|OUTPUTORDER:61|
 SKILL:Untrained Strength|OUTPUTORDER:62|
 SKILL:Untrained Wisdom|OUTPUTORDER:63|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:53|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:55|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:64|
-SKILL:Use Magic Device|OUTPUTORDER:65|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:65|
+SKILL:Use Magic Device|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Infernal
@@ -207,27 +207,27 @@ WEAPONPROF:[WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed
 MONEY:0.00
 EQUIPNAME:+1 Breastplate|OUTPUTORDER:3|COST:1350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=+1 Breastplate$KEY=+1 Breastplate (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Armor]
 EQUIPNAME:+1/Frost Falchion|OUTPUTORDER:2|COST:8375.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion (Base)|DATA:NAME=+1/Frost Falchion$KEY=+1/Frost Falchion (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon.Special Ability ~ Frost ~ Weapon]
-EQUIPNAME:+1/Merciful Trident|OUTPUTORDER:23|COST:8315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Trident (Base)|DATA:NAME=+1/Merciful Trident$KEY=+1/Merciful Trident (Base)$EQMOD=Special Quality ~ Brace.Material ~ Steel.Special Ability ~ +1 ~ Weapon.Special Ability ~ Merciful ~ Weapon]
-EQUIPNAME:Arrow|OUTPUTORDER:17|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:12|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
-EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:5|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Battleaxe|OUTPUTORDER:18|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
+EQUIPNAME:Arrow|OUTPUTORDER:18|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:13|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:6|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battleaxe|OUTPUTORDER:19|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
+EQUIPNAME:Belt of Physical Might +2 (Dex, Con)|OUTPUTORDER:5|COST:10000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt of Physical Might (DEX/CON) +2|DATA:KEY=Belt of Physical Might (DEX/CON) +2]
 EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:4|COST:1000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +1|DATA:NAME=Cloak of Resistance +1$EQMOD=Material ~ Cloth]
-EQUIPNAME:Dagger|OUTPUTORDER:15|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
-EQUIPNAME:Ioun Torch|OUTPUTORDER:14|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Longbow|OUTPUTORDER:16|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
-EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:19|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
-EQUIPNAME:Pale blue Rhomboid Ioun Stone|OUTPUTORDER:13|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ioun Stone (Pale blue Rhomboid)|DATA:KEY=Ioun Stone (Pale blue Rhomboid)]
-EQUIPNAME:Potion of Darkvision|OUTPUTORDER:9|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:NAME=Potion of Darkvision$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
-EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:7|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Dagger|OUTPUTORDER:16|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
+EQUIPNAME:Ioun Torch|OUTPUTORDER:15|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Longbow|OUTPUTORDER:17|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
+EQUIPNAME:Masterwork Warhammer|OUTPUTORDER:20|COST:312.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Masterwork Warhammer$EQMOD=Material ~ Steel.Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Pale blue Rhomboid Ioun Stone|OUTPUTORDER:14|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Ioun Stone (Pale blue Rhomboid)|DATA:NAME=Pale blue Rhomboid Ioun Stone$KEY=Ioun Stone (Pale blue Rhomboid)]
+EQUIPNAME:Potion of Darkvision|OUTPUTORDER:10|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Darkvision|DATA:NAME=Potion of Darkvision$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Darkvision&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;]
+EQUIPNAME:Potion of Enlarge Person|OUTPUTORDER:8|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Enlarge Person|DATA:NAME=Potion of Enlarge Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Enlarge Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Ring of Protection +2|OUTPUTORDER:1|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:11|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Identify|OUTPUTORDER:8|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:10|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:20|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
-EQUIPNAME:Silver Warhammer|OUTPUTORDER:21|COST:102.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Silver Warhammer$KEY=Silver Warhammer (Base)$EQMOD=Material ~ Alchemical Silver]
-EQUIPNAME:Sting|OUTPUTORDER:22|COST:2310.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Sting$EQMOD=Special Ability ~ +1 ~ Weapon$SPROP=silver, (+1 Short Sword)]
-EQUIPNAME:Torch|OUTPUTORDER:6|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:12|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Identify|OUTPUTORDER:9|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:11|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:21|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
+EQUIPNAME:Silver Warhammer|OUTPUTORDER:22|COST:102.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Silver Warhammer$KEY=Silver Warhammer (Base)$EQMOD=Material ~ Alchemical Silver]
+EQUIPNAME:Sting|OUTPUTORDER:23|COST:2310.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Sting$EQMOD=Special Ability ~ +1 ~ Weapon$SPROP=silver, (+1 Short Sword)]
+EQUIPNAME:Torch|OUTPUTORDER:7|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.05|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.06|VALUE:Longbow|QUANTITY:1.0|USETEMPMODS:Y
@@ -249,9 +249,9 @@ EQUIPSET:Shoulders|ID:0.1.24|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMO
 EQUIPSET:Carried|ID:0.1.25|VALUE:Sting|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.26|VALUE:Ring of Protection +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Both Hands|ID:0.1.27|VALUE:+1/Frost Falchion|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Carried|ID:0.1.28|VALUE:+1/Merciful Trident|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.29|VALUE:Pale blue Rhomboid Ioun Stone|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.30|VALUE:Ioun Torch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.31|VALUE:Belt of Physical Might +2 (Dex, Con)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
