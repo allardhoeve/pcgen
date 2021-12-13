@@ -1,8 +1,8 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Hell's Rebels Houserules
-VERSION:6.08.00 RC8
+CAMPAIGN:Pathfinder RPG Core Supplements|CAMPAIGN:Dirty Tactics Toolbox|CAMPAIGN:Hell's Rebels Houserules|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:PF - Hell's Rebels Player's Guide
+VERSION:6.08.00
 ROLLMETHOD:2|EXPRESSION:Epic Fantasy
 PURCHASEPOINTS:Y|TYPE:Epic Fantasy
 CHARACTERTYPE:PC
@@ -97,7 +97,7 @@ SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL
 SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:11|
 SKILL:Craft (Wood)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
@@ -120,40 +120,40 @@ SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|C
 SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
 SKILL:Linguistics|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial
-SKILL:Perception|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:40|
 SKILL:Profession (Baker)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Profession (Cook)|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Profession (Driver)|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Profession (Farmer)|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Gardener)|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Innkeeper)|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Merchant)|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Porter)|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Sailor)|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Soldier)|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Profession (Untrained)|OUTPUTORDER:50|
-SKILL:Ride|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Samurai Mount|OUTPUTORDER:52|
-SKILL:Sense Motive|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Paladin|RANKS:8.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:54|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:55|
-SKILL:Spellcraft|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:59|
-SKILL:Survival|OUTPUTORDER:60|
-SKILL:Swim|OUTPUTORDER:61|
-SKILL:Untrained Charisma|OUTPUTORDER:62|
-SKILL:Untrained Dexterity|OUTPUTORDER:63|
-SKILL:Untrained Intelligence|OUTPUTORDER:64|
-SKILL:Untrained Strength|OUTPUTORDER:65|
-SKILL:Untrained Wisdom|OUTPUTORDER:66|
+SKILL:Profession (Gardener)|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Innkeeper)|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Merchant)|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Porter)|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Sailor)|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Soldier)|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:51|
+SKILL:Ride|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:53|
+SKILL:Sense Motive|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:55|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:56|
+SKILL:Spellcraft|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:60|
+SKILL:Survival|OUTPUTORDER:61|
+SKILL:Swim|OUTPUTORDER:62|
+SKILL:Untrained Charisma|OUTPUTORDER:63|
+SKILL:Untrained Dexterity|OUTPUTORDER:64|
+SKILL:Untrained Intelligence|OUTPUTORDER:65|
+SKILL:Untrained Strength|OUTPUTORDER:66|
+SKILL:Untrained Wisdom|OUTPUTORDER:67|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:56|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:58|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:57|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:59|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:68|
-SKILL:Use Magic Device|OUTPUTORDER:67|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:69|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Infernal
@@ -185,6 +185,15 @@ USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 02|APPLIEDTO:Appraise|TYPE:GM_Award.SpecialQuality|DESC:Training&colon; At rank 2, then again at ranks 7, 12, and 17, each PC gains a bonus skill rank that can be immediately applied to any skill. This represents training the PC has gained through association with the increasing number of skilled workers and rebels who have joined the cause. This bonus skill rank can be applied to any skill, as if it were a bonus rank gained by earning a level in a favored class. It stacks with all other sources of skill ranks, but a character's maximum rank in any skill remains unchanged; the PC can never have more ranks in any one skill than he or she has Hit Dice. Subsequent training bonuses can be applied to the same skill or a different skill, as the PC wishes.
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 03|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 04|APPLIEDTO:CATEGORY=FEAT&pipe;Alertness|TYPE:GM_Award.SpecialQuality|DESC:Title&colon; At rank 4, then again at ranks 9, 14, and 19, the PCs earn a title as befits their growing power in the rebellion. While the title itself is largely just an honorific, it also coincides with the acquisition of a bonus feat or other benefit each PC has earned through a combination of training with rebellion members and self-confidence gained from the rebellion's growing strength. With the title of Guardian at rank 4, each PC gains one of the following as a bonus feat&colon; Alertness, Deceitful, Persuasive, or Stealthy.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 05|TYPE:GM_Award.SpecialQuality|DESC:XP Award&colon; At ranks 5, 10, 15, and 20, the party earns the listed amount of experience points as a story award. As with all story awards, divide the XP awarded equally among all PCs in the party.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 06|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 07|APPLIEDTO:Linguistics|TYPE:GM_Award.SpecialQuality|DESC:Training&colon; At rank 2, then again at ranks 7, 12, and 17, each PC gains a bonus skill rank that can be immediately applied to any skill. This represents training the PC has gained through association with the increasing number of skilled workers and rebels who have joined the cause. This bonus skill rank can be applied to any skill, as if it were a bonus rank gained by earning a level in a favored class. It stacks with all other sources of skill ranks, but a character's maximum rank in any skill remains unchanged; the PC can never have more ranks in any one skill than he or she has Hit Dice. Subsequent training bonuses can be applied to the same skill or a different skill, as the PC wishes.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 08|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 09|APPLIEDTO:CATEGORY=FEAT&pipe;Iron Will|TYPE:GM_Award.SpecialQuality|DESC:Title&colon; At rank 4, then again at ranks 9, 14, and 19, the PCs earn a title as befits their growing power in the rebellion. While the title itself is largely just an honorific, it also coincides with the acquisition of a bonus feat or other benefit each PC has earned through a combination of training with rebellion members and self-confidence gained from the rebellion's growing strength. With the title of Sentinel at rank 9, each PC gains one of the following as a bonus feat&colon; Great Fortitude, Iron Will, or Lightning Reflexes.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 10|TYPE:GM_Award.SpecialQuality|DESC:XP Award&colon; At ranks 5, 10, 15, and 20, the party earns the listed amount of experience points as a story award. As with all story awards, divide the XP awarded equally among all PCs in the party.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 11|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 12|APPLIEDTO:Profession (Baker)|TYPE:GM_Award.SpecialQuality|DESC:Training&colon; At rank 2, then again at ranks 7, 12, and 17, each PC gains a bonus skill rank that can be immediately applied to any skill. This represents training the PC has gained through association with the increasing number of skilled workers and rebels who have joined the cause. This bonus skill rank can be applied to any skill, as if it were a bonus rank gained by earning a level in a favored class. It stacks with all other sources of skill ranks, but a character's maximum rank in any skill remains unchanged; the PC can never have more ranks in any one skill than he or she has Hit Dice. Subsequent training bonuses can be applied to the same skill or a different skill, as the PC wishes.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 13|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
 USERPOOL:GM Awards|POOLPOINTS:0.0
 ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
@@ -218,19 +227,20 @@ WEAPONPROF:[WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tekko
 WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
+MONEY:0.00
 EQUIPNAME:+1 Breastplate|OUTPUTORDER:5|COST:1350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate (Base)|DATA:NAME=+1 Breastplate$KEY=+1 Breastplate (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Armor]
-EQUIPNAME:+1/Flaming Composite Longbow (+5)|OUTPUTORDER:26|COST:8900.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Longbow (Base)|DATA:NAME=+1/Flaming Composite Longbow (+5)$KEY=+1/Flaming Composite Longbow (Base/+5)$EQMOD=Material ~ Wood.Special Quality ~ Composite Bow Strength Rating&pipe;+5.Special Ability ~ +1 ~ Weapon.Special Ability ~ Flaming ~ Weapon]
+EQUIPNAME:+1/Flaming Composite Longbow (+5)|OUTPUTORDER:19|COST:8900.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Composite Longbow (Base)|DATA:NAME=+1/Flaming Composite Longbow (+5)$KEY=+1/Flaming Composite Longbow (Base/+5)$EQMOD=Material ~ Wood.Special Quality ~ Composite Bow Strength Rating&pipe;+5.Special Ability ~ +1 ~ Weapon.Special Ability ~ Flaming ~ Weapon]
 EQUIPNAME:+1/Frost Falchion|OUTPUTORDER:3|COST:8375.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Falchion (Base)|DATA:NAME=+1/Frost Falchion$KEY=+1/Frost Falchion (Base)$EQMOD=Material ~ Steel.Special Ability ~ +1 ~ Weapon.Special Ability ~ Frost ~ Weapon]
-EQUIPNAME:Arrow|OUTPUTORDER:27|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:+1/Human Bane Bastard Sword|OUTPUTORDER:26|COST:8335.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bastard Sword (Base)|DATA:NAME=+1/Human Bane Bastard Sword$KEY=+1/Human Bane Bastard Sword (Base)$EQMOD=Special Ability ~ +1 ~ Weapon.Special Ability ~ Bane ~ Weapon&pipe;Human Bane]
+EQUIPNAME:Arrow|OUTPUTORDER:20|COST:0.05|WT:0.15|QUANTITY:50.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow$EQMOD=Material ~ Steel.Material ~ Wood]
 EQUIPNAME:Artisan's Tools, Masterwork|OUTPUTORDER:16|COST:55.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Masterwork)|DATA:NAME=Artisan's Tools, Masterwork$KEY=Artisan's Tools (Masterwork)$EQMOD=Special Quality ~ Masterwork ~ Item]
 EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:9|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Battleaxe|OUTPUTORDER:21|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
+EQUIPNAME:Battleaxe|OUTPUTORDER:22|COST:10.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe (Base)|DATA:NAME=Battleaxe$EQMOD=Material ~ Steel]
 EQUIPNAME:Belt of Physical Might +2 (Dex, Con)|OUTPUTORDER:7|COST:10000|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt of Physical Might (DEX/CON) +2|DATA:NAME=Belt of Physical Might +2 (Dex, Con)$KEY=Belt of Physical Might (DEX/CON) +2]
 EQUIPNAME:Boots of Striding|OUTPUTORDER:8|COST:2500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bracers of the Merciful Knight|OUTPUTORDER:4|COST:15600|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:6|COST:1000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +1|DATA:NAME=Cloak of Resistance +1$EQMOD=Material ~ Cloth]
-EQUIPNAME:Dagger|OUTPUTORDER:19|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
+EQUIPNAME:Dagger|OUTPUTORDER:25|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger$EQMOD=Material ~ Steel]
 EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:1|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Ioun Torch|OUTPUTORDER:18|COST:75|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Longbow|OUTPUTORDER:20|COST:75.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Base)|DATA:NAME=Longbow$EQMOD=Material ~ Wood]
@@ -242,9 +252,9 @@ EQUIPNAME:Ring of Protection +2|OUTPUTORDER:2|COST:8000|WT:0.0|QUANTITY:1.0|NOTE
 EQUIPNAME:Scroll of Cure Light Wounds|OUTPUTORDER:15|COST:25.0|WT:0.01|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Cure Light Wounds|DATA:NAME=Scroll of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Scroll of Identify|OUTPUTORDER:12|COST:25.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Identify|DATA:NAME=Scroll of Identify$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Identify&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Scroll of Protection from Evil (Divine)|OUTPUTORDER:14|COST:25.0|WT:0.01|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll of Protection from Evil (Divine)|DATA:NAME=Scroll of Protection from Evil (Divine)$EQMOD=Special Ability ~ Spell Effect / Completion / Scroll / Arcane&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:23|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
-EQUIPNAME:Silver Warhammer|OUTPUTORDER:24|COST:102.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Silver Warhammer$KEY=Silver Warhammer (Base)$EQMOD=Material ~ Alchemical Silver]
-EQUIPNAME:Sting|OUTPUTORDER:25|COST:2310.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Sting$EQMOD=Special Ability ~ +1 ~ Weapon$SPROP=silver, (+1 Short Sword)]
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:24|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Heavy Steel Shield (Base)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=Material ~ Steel]
+EQUIPNAME:Silver Warhammer|OUTPUTORDER:23|COST:102.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Warhammer (Base)|DATA:NAME=Silver Warhammer$KEY=Silver Warhammer (Base)$EQMOD=Material ~ Alchemical Silver]
+EQUIPNAME:Sting|OUTPUTORDER:21|COST:2310.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Short Sword (Base)|DATA:NAME=Sting$EQMOD=Special Ability ~ +1 ~ Weapon$SPROP=silver, (+1 Short Sword)]
 EQUIPNAME:Torch|OUTPUTORDER:10|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.07|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
@@ -272,6 +282,7 @@ EQUIPSET:Carried|ID:0.1.45|VALUE:Battleaxe|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.46|VALUE:Silver Warhammer|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.47|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.48|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.49|VALUE:+1/Human Bane Bastard Sword|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
