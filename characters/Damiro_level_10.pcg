@@ -98,7 +98,7 @@ SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL
 SKILL:Craft (Blacksmithing)|OUTPUTORDER:10|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:11|
 SKILL:Craft (Wood)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Paladin|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
@@ -108,7 +108,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
 SKILL:Escape Artist|OUTPUTORDER:21|
 SKILL:Fly|OUTPUTORDER:22|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:23|
-SKILL:Handle Animal|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
 SKILL:Heal|OUTPUTORDER:28|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -121,7 +121,7 @@ SKILL:Knowledge (Nobility)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|C
 SKILL:Knowledge (Religion)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
 SKILL:Linguistics|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial|ASSOCIATEDDATA:Dwarven
-SKILL:Perception|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Dance)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:41|
 SKILL:Profession (Baker)|OUTPUTORDER:42|
@@ -139,7 +139,7 @@ SKILL:Profession (Soldier)|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|C
 SKILL:Profession (Untrained)|OUTPUTORDER:54|
 SKILL:Ride|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Samurai Mount|OUTPUTORDER:56|
-SKILL:Sense Motive|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:57|CLASSBOUGHT:[CLASS:Paladin|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Brawler|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:58|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:59|
 SKILL:Spellcraft|OUTPUTORDER:62|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:Y]
@@ -152,7 +152,7 @@ SKILL:Untrained Intelligence|OUTPUTORDER:68|
 SKILL:Untrained Strength|OUTPUTORDER:69|
 SKILL:Untrained Wisdom|OUTPUTORDER:70|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:60|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:61|
@@ -200,6 +200,7 @@ ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 11|TYP
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 12|APPLIEDTO:Profession (Baker)|TYPE:GM_Award.SpecialQuality|DESC:Training&colon; At rank 2, then again at ranks 7, 12, and 17, each PC gains a bonus skill rank that can be immediately applied to any skill. This represents training the PC has gained through association with the increasing number of skilled workers and rebels who have joined the cause. This bonus skill rank can be applied to any skill, as if it were a bonus rank gained by earning a level in a favored class. It stacks with all other sources of skill ranks, but a character's maximum rank in any skill remains unchanged; the PC can never have more ranks in any one skill than he or she has Hit Dice. Subsequent training bonuses can be applied to the same skill or a different skill, as the PC wishes.
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 13|TYPE:GM_Award.SpecialQuality|DESC:Gift&colon; At rank 3, then again at ranks 6, 8, 11, 13, 16, and 18, admirers among the rebellion's supporters supply gifts and tributes to each PC. At rank 3, the gift is a single potion worth 300 gp or less. The gifts given at ranks 6, 11, and 16 are all provided as tributes of gold pieces in the amounts listed; each PC gains the listed amount. At rank 8, the gift is a piece of armor or wand worth 1,200 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 13, the gift is a wand or weapon worth 5,000 gp or less. Wands are fully charged (and cost the appropriate amount). At rank 18, the gift is any magic item worth 10,000 gp or less.
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 14|APPLIEDTO:CATEGORY=FEAT&pipe;Improved Initiative|TYPE:GM_Award.SpecialQuality|DESC:Title&colon; At rank 4, then again at ranks 9, 14, and 19, the PCs earn a title as befits their growing power in the rebellion. While the title itself is largely just an honorific, it also coincides with the acquisition of a bonus feat or other benefit each PC has earned through a combination of training with rebellion members and self-confidence gained from the rebellion's growing strength. With the title of Warden at rank 14, each PC gains one of the following as a bonus feat&colon; Fleet, Improved Initiative, or Toughness.
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rebellion Rank 15|TYPE:GM_Award.SpecialQuality|DESC:XP Award&colon; At ranks 5, 10, 15, and 20, the party earns the listed amount of experience points as a story award. As with all story awards, divide the XP awarded equally among all PCs in the party.
 USERPOOL:GM Awards|POOLPOINTS:0.0
 ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
