@@ -96,7 +96,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
-SKILL:Disable Device|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:20|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -130,7 +130,7 @@ SKILL:Untrained Dexterity|OUTPUTORDER:55|
 SKILL:Untrained Intelligence|OUTPUTORDER:56|
 SKILL:Untrained Strength|OUTPUTORDER:57|
 SKILL:Untrained Wisdom|OUTPUTORDER:58|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
@@ -148,8 +148,8 @@ FEATPOOL:0.0
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic,Common|TYPE:
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic,Common|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat|DESC:You can draw weapons faster than most.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Roll With It|TYPE:Combat|DESC:You know how to take a hit, even if your reaction sends you bouncing and flying out of battle while shrieking at the top of your lungs.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
@@ -165,7 +165,7 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rogue Finesse Damage Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rogue ~ Finesse Training Choice|APPLIEDTO:Dagger|TYPE:Unchained Rogue Finesse Damage Choice.SpecialQuality.Extraordinary|DESC:Dexterity to Damage with %1&pipe;%LIST
 USERPOOL:Unchained Rogue Finesse Damage Choice|POOLPOINTS:0.0
-ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Underhanded|TYPE:SpecialQuality.Extraordinary.RogueTalent.Unchained Rogue Talent|DESC:A rogue with this talent gains a +4 circumstance bonus on all Sleight of Hand checks made to conceal a weapon. Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage. A rogue can only use the underhanded talent a number of times per day equal to her Charisma modifier (minimum 0).
+ABILITY:Unchained Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Fast Getaway|TYPE:RogueTalent.SpecialAttack.Extraordinary.AttackOption.Unchained Rogue Talent|DESC:After successfully making a sneak attack or Sleight of Hand check, a rogue with this talent can spend a move action to take the withdraw action. She can move no more than her speed during this movement.
 USERPOOL:Unchained Rogue Talent|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
