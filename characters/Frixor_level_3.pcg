@@ -102,7 +102,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly|OUTPUTORDER:23|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
-SKILL:Handle Animal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:27|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:28|
 SKILL:Heal|OUTPUTORDER:29|
@@ -121,7 +121,7 @@ SKILL:Samurai Mount|OUTPUTORDER:44|
 SKILL:Sense Motive|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:46|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:47|
-SKILL:Sleight of Hand|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:52|
 SKILL:Swim|OUTPUTORDER:53|
@@ -131,12 +131,12 @@ SKILL:Untrained Intelligence|OUTPUTORDER:56|
 SKILL:Untrained Strength|OUTPUTORDER:57|
 SKILL:Untrained Wisdom|OUTPUTORDER:58|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:49|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:50|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
-SKILL:Use Magic Device|OUTPUTORDER:60|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:60|
+SKILL:Use Magic Device|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Goblin
@@ -177,39 +177,40 @@ WEAPONPROF:[WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (
 # Character Equipment
 MONEY:48.77000000000000312638803734444081783294677734375
 EQUIPNAME:+1 Leather Armor (Small)|OUTPUTORDER:4|COST:1160.0|WT:7.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=+1 Leather Armor (Small)$KEY=+1 Leather Armor (Base/Small)$SIZE=S$EQMOD=Material ~ Leather.Special Ability ~ +1 ~ Armor]
-EQUIPNAME:Alchemist's Fire|OUTPUTORDER:9|COST:20|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Alchemist's Fire (Flask)|DATA:NAME=Alchemist's Fire$KEY=Alchemist's Fire (Flask)]
-EQUIPNAME:Arrow (Small)|OUTPUTORDER:22|COST:0.05|WT:0.075|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow (Small)$KEY=AUTOSIZESArrow$SIZE=S$EQMOD=Material ~ Steel.Material ~ Wood]
-EQUIPNAME:Backpack (Masterwork) (Small)|OUTPUTORDER:8|COST:50|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack (Masterwork)|DATA:NAME=Backpack (Masterwork) (Small)$KEY=AUTOSIZESBackpack (Masterwork)$SIZE=S]
-EQUIPNAME:Bandolier (Small)|OUTPUTORDER:6|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bandolier|DATA:NAME=Bandolier (Small)$KEY=AUTOSIZESBandolier$SIZE=S]
-EQUIPNAME:Bell|OUTPUTORDER:13|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Chalk|OUTPUTORDER:12|COST:0.01|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chalk (1 Piece)|DATA:NAME=Chalk$KEY=Chalk (1 Piece)]
+EQUIPNAME:Alchemist's Fire|OUTPUTORDER:10|COST:20|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Alchemist's Fire (Flask)|DATA:NAME=Alchemist's Fire$KEY=Alchemist's Fire (Flask)]
+EQUIPNAME:Arrow (Small)|OUTPUTORDER:23|COST:0.05|WT:0.075|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow (Small)$KEY=AUTOSIZESArrow$SIZE=S$EQMOD=Material ~ Steel.Material ~ Wood]
+EQUIPNAME:Backpack (Masterwork) (Small)|OUTPUTORDER:9|COST:50|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack (Masterwork)|DATA:NAME=Backpack (Masterwork) (Small)$KEY=AUTOSIZESBackpack (Masterwork)$SIZE=S]
+EQUIPNAME:Bandolier (Small)|OUTPUTORDER:7|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bandolier|DATA:NAME=Bandolier (Small)$KEY=AUTOSIZESBandolier$SIZE=S]
+EQUIPNAME:Bell|OUTPUTORDER:14|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Chalk|OUTPUTORDER:13|COST:0.01|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chalk (1 Piece)|DATA:NAME=Chalk$KEY=Chalk (1 Piece)]
+EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:5|COST:1000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +1|DATA:NAME=Cloak of Resistance +1$EQMOD=Material ~ Cloth]
 EQUIPNAME:Cold Iron/Masterwork Dagger (Small)|OUTPUTORDER:1|COST:304.0|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Cold Iron/Masterwork Dagger (Small)$KEY=Cold Iron/Masterwork Dagger (Base/Small)$SIZE=S$EQMOD=Special Quality ~ Masterwork ~ Weapon.Material ~ Cold Iron]
-EQUIPNAME:Crowbar|OUTPUTORDER:5|COST:2|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Dagger (Small)|OUTPUTORDER:7|COST:2.0|WT:0.5|QUANTITY:6.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger (Small)$KEY=AUTOSIZESDagger$SIZE=S$EQMOD=Material ~ Steel]
+EQUIPNAME:Crowbar|OUTPUTORDER:6|COST:2|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Dagger (Small)|OUTPUTORDER:8|COST:2.0|WT:0.5|QUANTITY:6.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger (Small)$KEY=AUTOSIZESDagger$SIZE=S$EQMOD=Material ~ Steel]
 EQUIPNAME:Dog, Riding|OUTPUTORDER:25|COST:150|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dog (Riding)|DATA:NAME=Dog, Riding$KEY=Dog (Riding)]
 EQUIPNAME:Explorer's Outfit (Small)|OUTPUTORDER:3|COST:0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Explorer's Outfit (Small)$KEY=Outfit (Explorer_s/Small)$SIZE=S$COSTMOD=-10]
 EQUIPNAME:Fire Carrier|OUTPUTORDER:0|COST:0.1|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Goblin Pickles (Jar)|OUTPUTORDER:0|COST:0.4|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Gold Piece|OUTPUTORDER:23|COST:1|WT:0.02|QUANTITY:49.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Gold Piece)|DATA:NAME=Gold Piece$KEY=Coin (Gold Piece)]
-EQUIPNAME:Hourglass (1 minute)|OUTPUTORDER:21|COST:20|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Journal|OUTPUTORDER:20|COST:10|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Masterwork Shortbow (Small)|OUTPUTORDER:28|COST:330.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Base)|DATA:NAME=Masterwork Shortbow (Small)$KEY=Masterwork Shortbow (Base/Small)$SIZE=S$EQMOD=Special Quality ~ Masterwork ~ Weapon]
-EQUIPNAME:Mirror|OUTPUTORDER:14|COST:10|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mirror (Small/Steel)|DATA:NAME=Mirror$KEY=Mirror (Small/Steel)]
-EQUIPNAME:Oil of Bless Weapon|OUTPUTORDER:30|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oil of Bless Weapon|DATA:NAME=Oil of Bless Weapon$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Bless Weapon&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Oil of Magic Weapon|OUTPUTORDER:31|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oil of Magic Weapon|DATA:NAME=Oil of Magic Weapon$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Magic Weapon&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Oil, 1 Pint Flask|OUTPUTORDER:15|COST:0.1|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oil (1 Pint Flask)|DATA:NAME=Oil, 1 Pint Flask$KEY=Oil (1 Pint Flask)]
-EQUIPNAME:Piton|OUTPUTORDER:16|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:11|COST:50.0|WT:0.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Potion of Hide from Undead|OUTPUTORDER:29|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Hide from Undead|DATA:NAME=Potion of Hide from Undead$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Hide from Undead&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Potion of Pass without Trace|OUTPUTORDER:10|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Pass without Trace|DATA:NAME=Potion of Pass without Trace$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Pass without Trace&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
-EQUIPNAME:Potion of Reduce Person|OUTPUTORDER:32|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Reduce Person|DATA:NAME=Potion of Reduce Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Reduce Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Gold Piece|OUTPUTORDER:24|COST:1|WT:0.02|QUANTITY:49.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Gold Piece)|DATA:NAME=Gold Piece$KEY=Coin (Gold Piece)]
+EQUIPNAME:Hourglass (1 minute)|OUTPUTORDER:22|COST:20|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Journal|OUTPUTORDER:21|COST:10|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Masterwork Shortbow (Small)|OUTPUTORDER:26|COST:330.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Base)|DATA:NAME=Masterwork Shortbow (Small)$KEY=Masterwork Shortbow (Base/Small)$SIZE=S$EQMOD=Special Quality ~ Masterwork ~ Weapon]
+EQUIPNAME:Mirror|OUTPUTORDER:15|COST:10|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mirror (Small/Steel)|DATA:NAME=Mirror$KEY=Mirror (Small/Steel)]
+EQUIPNAME:Oil of Bless Weapon|OUTPUTORDER:28|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oil of Bless Weapon|DATA:NAME=Oil of Bless Weapon$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Bless Weapon&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Oil of Magic Weapon|OUTPUTORDER:29|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oil of Magic Weapon|DATA:NAME=Oil of Magic Weapon$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Magic Weapon&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Oil, 1 Pint Flask|OUTPUTORDER:16|COST:0.1|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oil (1 Pint Flask)|DATA:NAME=Oil, 1 Pint Flask$KEY=Oil (1 Pint Flask)]
+EQUIPNAME:Piton|OUTPUTORDER:17|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:12|COST:50.0|WT:0.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Cure Light Wounds|DATA:NAME=Potion of Cure Light Wounds$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Potion of Hide from Undead|OUTPUTORDER:27|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Hide from Undead|DATA:NAME=Potion of Hide from Undead$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Hide from Undead&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Potion of Pass without Trace|OUTPUTORDER:11|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Pass without Trace|DATA:NAME=Potion of Pass without Trace$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Pass without Trace&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
+EQUIPNAME:Potion of Reduce Person|OUTPUTORDER:30|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion of Reduce Person|DATA:NAME=Potion of Reduce Person$EQMOD=Special Ability ~ Spell Effect / Single Use&pipe;SPELLNAME&lbracket;Reduce Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;]
 EQUIPNAME:Saddle, Pack (Small)|OUTPUTORDER:27|COST:5|WT:3.75|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Saddle (Pack)|DATA:NAME=Saddle, Pack (Small)$KEY=AUTOSIZESSaddle (Pack)$SIZE=S]
 EQUIPNAME:Saddle, Riding (Small)|OUTPUTORDER:26|COST:10|WT:6.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Saddle (Riding)|DATA:NAME=Saddle, Riding (Small)$KEY=AUTOSIZESSaddle (Riding)$SIZE=S]
 EQUIPNAME:Silver/Masterwork Dagger (Small)|OUTPUTORDER:2|COST:322.0|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Silver/Masterwork Dagger (Small)$KEY=Silver/Masterwork Dagger (Base/Small)$SIZE=S$EQMOD=Special Quality ~ Masterwork ~ Weapon.Material ~ Alchemical Silver]
-EQUIPNAME:String (50 ft.)|OUTPUTORDER:17|COST:0.01|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:24|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Vial|OUTPUTORDER:18|COST:1|WT:0.0|QUANTITY:4.0|NOTE:
-EQUIPNAME:Waterskin|OUTPUTORDER:19|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:String (50 ft.)|OUTPUTORDER:18|COST:0.01|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:25|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Vial|OUTPUTORDER:19|COST:1|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Waterskin|OUTPUTORDER:20|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.01|VALUE:Explorer's Outfit (Small)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.02|VALUE:Crowbar|QUANTITY:1.0|USETEMPMODS:Y
@@ -241,6 +242,7 @@ EQUIPSET:Carried|ID:0.1.19|VALUE:Oil of Bless Weapon|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.20|VALUE:Oil of Magic Weapon|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.21|VALUE:Potion of Reduce Person|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.22|VALUE:Potion of Cure Light Wounds|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.23|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
