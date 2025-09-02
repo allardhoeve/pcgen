@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Pathfinder Unchained
+CAMPAIGN:Pathfinder Society Chronicle Sheets|CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Goblins of Golarion|CAMPAIGN:Pathfinder Unchained
 VERSION:6.08.00
 ROLLMETHOD:2|EXPRESSION:Epic Fantasy
 PURCHASEPOINTS:Y|TYPE:Epic Fantasy
@@ -96,13 +96,13 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
-SKILL:Disable Device|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Disable Device|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Disguise|OUTPUTORDER:20|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly|OUTPUTORDER:23|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
-SKILL:Handle Animal|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:27|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:28|
 SKILL:Heal|OUTPUTORDER:29|
@@ -130,8 +130,8 @@ SKILL:Untrained Dexterity|OUTPUTORDER:55|
 SKILL:Untrained Intelligence|OUTPUTORDER:56|
 SKILL:Untrained Strength|OUTPUTORDER:57|
 SKILL:Untrained Wisdom|OUTPUTORDER:58|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:49|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:50|
@@ -148,6 +148,11 @@ FEATPOOL:0.0
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic,Common|TYPE:
 ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic,Common|TYPE:
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Chronicle_S07-05|TYPE:NORMAL|CATEGORY:Special Ability|KEY:PFS Scenario 7-05 ~ New Recruit|TYPE:Chronicle_S07-05.PFSBoon|DESC:Your team of Pathfinders sponsored J. to join the Pathfinder Society. In exchange, she is eager to assist you on one of your future missions. You can direct J. to cast a spell from the spiritualist list (Pathfinder RPG Occult Adventures 76) as a standard action. The spell's level can be up to one third of your character level (minimum 0). J.'s caster level is equal to your character level - 3 (minimum 2), and her Wisdom score is 17. J. is a noncombatant, and she is considered to be in your square for the purpose of determining the origin of her spell. When you use this boon, cross it off your Chronicle Sheet.
+USERPOOL:Chronicle_S07-05|POOLPOINTS:0.0
+ABILITY:Chronicle_S07-10|TYPE:NORMAL|CATEGORY:Special Ability|KEY:PFS Scenario 7-10 ~ Inside Knowledge|TYPE:Chronicle_S07-10.PFSBoon|DESC:As a former member of the Aspis Consortium, Magali Delroya is well informed about the organization's activities, and she shares some of her information with you. You gain a +2 bonus on Knowledge (local) checks about the Aspis Consortium and can roll such checks untrained. You can cross this boon off the Chronicle sheet to take 20 on a single Knowledge (local) check about the Aspis Consortium.
+ABILITY:Chronicle_S07-10|TYPE:NORMAL|CATEGORY:Special Ability|KEY:PFS Scenario 7-10 ~ Lord Avid's Recommendation|TYPE:Chronicle_S07-10.PFSBoon|DESC:Lord Avid is impressed that you managed to complete your mission without using his writ, and he speaks highly of your discretion. You gain a +2 circumstance bonus on all Charisma-based skill checks against nobility while on the Isle of Kortos. You can cross this boon off your Chronicle sheet to lean heavily upon your connection to Lord Avid. If you do so, the circumstance bonus on one such Charisma-based skill check increases to +4, and you can apply it while interacting with anyone on the Isle of Kortos.
+USERPOOL:Chronicle_S07-10|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat|DESC:You can draw weapons faster than most.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Roll With It|TYPE:Combat|DESC:You know how to take a hit, even if your reaction sends you bouncing and flying out of battle while shrieking at the top of your lungs.
 USERPOOL:FEAT|POOLPOINTS:0.0
@@ -156,6 +161,9 @@ USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Dungeoneering)|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:PFSChronicle|TYPE:NORMAL|CATEGORY:PFS Chronicle|KEY:Chronicle ~ S07-05|APPLIEDTO:Subtier 1-2|TYPE:PFSChronicle
+ABILITY:PFSChronicle|TYPE:NORMAL|CATEGORY:PFS Chronicle|KEY:Chronicle ~ S07-10|APPLIEDTO:Subtier 2|TYPE:PFSChronicle
+USERPOOL:PFSChronicle|POOLPOINTS:0.0
 ABILITY:Rogue Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Rogue Archetype ~ Scout|TYPE:Archetype.RogueArchetype.RogueUncannyDodge.RogueImprovedUncannyDodge|DESC:Not all rogues live in the city. Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior. More comfortable with sneaking and hiding outdoors, the scout is still effective in the city and the dungeon.
 USERPOOL:Rogue Archetype|POOLPOINTS:0.0
 ABILITY:Rogue Class Selection|TYPE:NORMAL|CATEGORY:Class|KEY:Rogue ~ Unchained Class|TYPE:Rogue Class Selection.AltRogueChoice
@@ -175,7 +183,7 @@ WEAPONPROF:[WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rapie
 WEAPONPROF:[WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:48.77000000000000312638803734444081783294677734375
+MONEY:832
 EQUIPNAME:+1 Leather Armor (Small)|OUTPUTORDER:4|COST:1160.0|WT:7.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather Armor (Base)|DATA:NAME=+1 Leather Armor (Small)$KEY=+1 Leather Armor (Base/Small)$SIZE=S$EQMOD=Material ~ Leather.Special Ability ~ +1 ~ Armor]
 EQUIPNAME:Alchemist's Fire|OUTPUTORDER:10|COST:20|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Alchemist's Fire (Flask)|DATA:NAME=Alchemist's Fire$KEY=Alchemist's Fire (Flask)]
 EQUIPNAME:Arrow (Small)|OUTPUTORDER:23|COST:0.05|WT:0.075|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Base)|DATA:NAME=Arrow (Small)$KEY=AUTOSIZESArrow$SIZE=S$EQMOD=Material ~ Steel.Material ~ Wood]
@@ -188,6 +196,7 @@ EQUIPNAME:Cold Iron/Masterwork Dagger (Small)|OUTPUTORDER:1|COST:304.0|WT:0.5|QU
 EQUIPNAME:Crowbar|OUTPUTORDER:6|COST:2|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Dagger (Small)|OUTPUTORDER:8|COST:2.0|WT:0.5|QUANTITY:6.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Dagger (Small)$KEY=AUTOSIZESDagger$SIZE=S$EQMOD=Material ~ Steel]
 EQUIPNAME:Dog, Riding|OUTPUTORDER:25|COST:150|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dog (Riding)|DATA:NAME=Dog, Riding$KEY=Dog (Riding)]
+EQUIPNAME:Everful Mug|OUTPUTORDER:31|COST:200.00|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mug (Clay)|DATA:NAME=Everful Mug$SPROP=Three times per day, when you recite the command word, this mug fills with 12 ounces of water, cheap ale, or watery wine (your choice).$COSTMOD=199.98]
 EQUIPNAME:Explorer's Outfit (Small)|OUTPUTORDER:3|COST:0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Explorer's Outfit (Small)$KEY=Outfit (Explorer_s/Small)$SIZE=S$COSTMOD=-10]
 EQUIPNAME:Fire Carrier|OUTPUTORDER:0|COST:0.1|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Goblin Pickles (Jar)|OUTPUTORDER:0|COST:0.4|WT:1.0|QUANTITY:1.0|NOTE:
@@ -207,6 +216,7 @@ EQUIPNAME:Potion of Reduce Person|OUTPUTORDER:30|COST:50.0|WT:0.0|QUANTITY:1.0|N
 EQUIPNAME:Saddle, Pack (Small)|OUTPUTORDER:27|COST:5|WT:3.75|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Saddle (Pack)|DATA:NAME=Saddle, Pack (Small)$KEY=AUTOSIZESSaddle (Pack)$SIZE=S]
 EQUIPNAME:Saddle, Riding (Small)|OUTPUTORDER:26|COST:10|WT:6.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Saddle (Riding)|DATA:NAME=Saddle, Riding (Small)$KEY=AUTOSIZESSaddle (Riding)$SIZE=S]
 EQUIPNAME:Silver/Masterwork Dagger (Small)|OUTPUTORDER:2|COST:322.0|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Base)|DATA:NAME=Silver/Masterwork Dagger (Small)$KEY=Silver/Masterwork Dagger (Base/Small)$SIZE=S$EQMOD=Special Quality ~ Masterwork ~ Weapon.Material ~ Alchemical Silver]
+EQUIPNAME:Smokestick|OUTPUTORDER:0|COST:20|WT:0.5|QUANTITY:4.0|NOTE:
 EQUIPNAME:String (50 ft.)|OUTPUTORDER:18|COST:0.01|WT:0.5|QUANTITY:1.0|NOTE:
 EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:25|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Vial|OUTPUTORDER:19|COST:1|WT:0.0|QUANTITY:4.0|NOTE:
@@ -243,6 +253,7 @@ EQUIPSET:Carried|ID:0.1.20|VALUE:Oil of Magic Weapon|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.21|VALUE:Potion of Reduce Person|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.22|VALUE:Potion of Cure Light Wounds|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.23|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.24|VALUE:Everful Mug|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
